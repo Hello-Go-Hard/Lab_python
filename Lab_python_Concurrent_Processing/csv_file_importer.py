@@ -10,35 +10,3 @@ def scan_file(file_name):
                 del row[None]
             data_dict.append(row)
     return data_dict
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
