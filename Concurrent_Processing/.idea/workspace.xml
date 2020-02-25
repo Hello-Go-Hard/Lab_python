@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4be1389c-fa68-4acc-ac59-08c1631b0c01" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/csv_file_importer.py" beforeDir="false" afterPath="$PROJECT_DIR$/csv_file_importer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_cutter.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_cutter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/general-stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/material-stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/material-stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object-stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/object-stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second.py" beforeDir="false" afterPath="$PROJECT_DIR$/second.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third.py" beforeDir="false" afterPath="$PROJECT_DIR$/third.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1Y401wfgtjg5nFJD8AESgKc9qDE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.third">
+    <configuration name="first_task" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Analysis_Tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first_task.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="second" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Analysis_Tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="third" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Analysis_Tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/third.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.third" />
+        <item itemvalue="Python.second" />
+        <item itemvalue="Python.first_task" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4be1389c-fa68-4acc-ac59-08c1631b0c01" name="Default Changelist" comment="" />
+      <created>1582617309313</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582617309313</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="691" y="134" key="#first_task" timestamp="1582620353911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="691" y="134" key="#first_task/0.0.1920.1040@0.0.1920.1040" timestamp="1582620353911" />
+    <state width="1899" height="369" key="GridCell.Tab.0.bottom" timestamp="1582623196660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582623196660" />
+    <state width="1899" height="369" key="GridCell.Tab.0.center" timestamp="1582623196660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="369" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582623196660" />
+    <state width="1899" height="369" key="GridCell.Tab.0.left" timestamp="1582623196660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="369" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582623196660" />
+    <state width="1899" height="369" key="GridCell.Tab.0.right" timestamp="1582623196660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="369" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582623196660" />
+    <state width="1899" height="369" key="GridCell.Tab.1.bottom" timestamp="1582623196660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="369" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582623196660" />
+    <state width="1899" height="369" key="GridCell.Tab.1.center" timestamp="1582623196660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="369" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582623196660" />
+    <state width="1899" height="369" key="GridCell.Tab.1.left" timestamp="1582623196660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="369" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582623196660" />
+    <state width="1899" height="369" key="GridCell.Tab.1.right" timestamp="1582623196660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="369" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582623196660" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1582620364031">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582620364031" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1582617315557">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582617315557" />
+  </component>
+</project>

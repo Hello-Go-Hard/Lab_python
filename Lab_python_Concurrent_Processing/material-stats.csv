@@ -181,21 +181,17 @@ Date,Material,Count
 1819,synthetic,2
 1820,wood->,4
 1820,metal->iron,3
-1820,metal->brass,16
+1820,metal->brass,3
 1820,glass->,3
 1820,fibre->velvet,1
 1820,wood->pine,1
-1820,glass,6
-1820,metal,2
+1820,glass,1
+1820,metal,1
 1820,metal->,1
 1820,skin->leather - possible,1
-1820,wood->mahogany,2
+1820,wood->mahogany,1
 1820,fibre->felt,1
 1820,metal->steel,1
-1820,bone->ivory,1
-1820,stone - possible->mica - possible,1
-1820,fibre->,1
-1820,paper->card stock,1
 1821,paper,1
 1821,metal->cast-iron,1
 1821,wood->,1
@@ -401,35 +397,18 @@ Date,Material,Count
 1841,fibre,1
 1842,stone->granulite,1
 1842,wood,1
-1842,metal,4
+1842,metal,1
 1842,metal->cast-iron,1
 1842,paper,1
 1842,wood->,1
 1842,metal->iron,2
-1842,metal->brass,27
-1842,glass,12
-1842,fibre->,1
-1842,wood->rosewood,1
-1842,wood->mahogany,2
-1842,skin->leather,2
-1842,fibre->velvet,1
 1843,wood->,1
 1843,metal->iron,2
 1843,metal->brass,2
 1843,wood,1
 1843,glass,1
-1844,metal,25
-1844,wood,6
-1844,metal->brass,14
-1844,metal->aluminum,1
-1844,fibre,2
-1844,paper,2
-1844,metal->,1
-1844,fibre->felt,1
-1844,synthetic,3
-1844,metal->cast-iron,6
-1844,wood->walnut,1
-1844,glass,2
+1844,metal,3
+1844,wood,3
 1845,wood,9
 1845,,1
 1845,metal->,1
@@ -893,21 +872,21 @@ Date,Material,Count
 1869,fluid,1
 1869,wood->beech,1
 1869,wood->boxwood,1
-1870,wood->,39
+1870,wood->,38
 1870,metal->iron,40
 1870,metal->brass,40
 1870,metal->silver,1
 1870,glass,24
-1870,paper,11
+1870,paper,10
 1870,metal->copper,7
 1870,metal->cast-iron,7
 1870,wood,71
-1870,metal,65
+1870,metal,64
 1870,resin->rubber,5
 1870,resin->ebonite,3
 1870,metal->tin,1
-1870,fibre,4
-1870,synthetic,7
+1870,fibre,3
+1870,synthetic,5
 1870,metal->steel,26
 1870,fibre->felt,1
 1870,ceramic->porcelain,2
@@ -919,7 +898,7 @@ Date,Material,Count
 1870,bone->ivory,3
 1870,skin->leather,9
 1870,stone->,1
-1870,metal->brass - possible,2
+1870,metal->brass - possible,1
 1870,metal->steel - possible,17
 1870,metal->wrought iron,1
 1870,glass->,4
@@ -931,7 +910,7 @@ Date,Material,Count
 1870,metal->nickel,2
 1870,metal->white metal,2
 1870,wood->ironwood,1
-1870,metal->,5
+1870,metal->,4
 1870,wood->hickory,3
 1870,fibre->cotton,1
 1870,metal->lead,10
@@ -941,9 +920,6 @@ Date,Material,Count
 1870,skin - possible->leather - possible,1
 1870,wood->ebony - possible,1
 1870,wood->rosewood - possible,1
-1870,glass - possible,1
-1870,synthetic->bakelite - possible,1
-1870,fibre->silk - possible,1
 1871,,1
 1871,skin->leather,5
 1871,metal,7
@@ -1158,7 +1134,6 @@ Date,Material,Count
 1879,synthetic->carbon,1
 1879,paper,5
 1879,metal->steel - possible,1
-1879,ceramic->porcelain,1
 1880,wood->,35
 1880,metal->cast-iron,17
 1880,metal->tin,9
@@ -1270,7 +1245,6 @@ Date,Material,Count
 1881,fibre->,1
 1881,fibre->silk - possible,1
 1881,paper->card stock,85
-1881,paper - possible,1
 1882,metal->cast-iron,5
 1882,metal->steel,9
 1882,wood,13
@@ -1318,7 +1292,7 @@ Date,Material,Count
 1883,metal->brass,10
 1883,metal->aluminum,1
 1883,metal->nickel,2
-1883,paper,4
+1883,paper,3
 1883,wood->,2
 1883,metal->,2
 1883,fibre->canvas,1
@@ -1336,14 +1310,14 @@ Date,Material,Count
 1884,paper->,2
 1884,composite->ink,1
 1884,resin->wax,1
-1884,metal->brass,8
+1884,metal->brass,7
 1884,wood->mahogany,1
 1884,fibre,2
 1884,metal->steel,5
 1884,metal->copper,5
 1884,synthetic,2
-1884,wood,10
-1884,metal,13
+1884,wood,9
+1884,metal,11
 1884,wood->,4
 1884,metal->,4
 1884,stone->mica,2
@@ -1351,7 +1325,7 @@ Date,Material,Count
 1884,wood->oak,1
 1884,metal->chromium,1
 1884,,1
-1884,glass,6
+1884,glass,5
 1884,metal->iron,4
 1884,resin->rubber,3
 1884,skin->leather,3
@@ -1384,13 +1358,13 @@ Date,Material,Count
 1885,metal->copper,11
 1885,fibre->,2
 1885,ceramic->porcelain,2
-1885,wood,24
+1885,wood,23
 1885,synthetic->bakelite,6
 1885,wood->pine,1
 1885,wood->oak,1
 1885,metal->silver,1
 1885,glass,20
-1885,metal,20
+1885,metal,16
 1885,paper,6
 1885,,4
 1885,synthetic->plastic,1
@@ -1420,7 +1394,6 @@ Date,Material,Count
 1885,fibre->cotton,1
 1885,wood->lignum vitae,1
 1885,bone,1
-1885,fibre->felt,1
 1886,metal,13
 1886,paper->,3
 1886,composite->ink,1
@@ -1456,7 +1429,7 @@ Date,Material,Count
 1886,fibre,1
 1887,paper,6
 1887,wood->,7
-1887,metal->,7
+1887,metal->,6
 1887,fibre->canvas,1
 1887,metal,8
 1887,metal->iron,2
@@ -1481,8 +1454,6 @@ Date,Material,Count
 1887,fibre,2
 1887,fibre->silk - possible,1
 1887,paper->cardboard,1
-1887,resin - possible->rubber - possible,1
-1887,synthetic->bakelite - possible,1
 1888,metal->,11
 1888,skin->leather,8
 1888,metal->brass,18
@@ -1526,11 +1497,11 @@ Date,Material,Count
 1888,fibre - possible,2
 1889,metal->brass,17
 1889,glass,5
-1889,wood,14
-1889,metal,14
-1889,glass->,6
+1889,wood,12
+1889,metal,12
+1889,glass->,5
 1889,synthetic->carbon,4
-1889,metal->,10
+1889,metal->,5
 1889,ceramic->porcelain,2
 1889,wood->oak,1
 1889,metal->steel,9
@@ -1538,7 +1509,7 @@ Date,Material,Count
 1889,synthetic,3
 1889,metal->nickel,1
 1889,paper->cardboard,2
-1889,wood->,6
+1889,wood->,4
 1889,skin->leather,2
 1889,metal->stainless steel,1
 1889,metal->iron,3
@@ -1552,17 +1523,11 @@ Date,Material,Count
 1889,metal->bronze,2
 1889,fibre,1
 1889,metal->cast-iron,3
-1889,fibre->,2
-1889,resin->rubber,2
+1889,fibre->,1
+1889,resin->rubber,1
 1889,metal->brass - possible,1
 1889,wood->cork,1
 1889,synthetic - possible,1
-1889,resin - possible->rubber - possible,1
-1889,wood->spruce,2
-1889,wood->mahogany - possible,2
-1889,paper - possible,1
-1889,plant->wicker,1
-1889,skin - possible->leather - possible,1
 1890,wood->,71
 1890,metal->steel,54
 1890,wood,121
@@ -1576,7 +1541,7 @@ Date,Material,Count
 1890,skin,4
 1890,fibre,25
 1890,glass,45
-1890,metal->,39
+1890,metal->,35
 1890,glass->,51
 1890,fibre->,5
 1890,metal->white metal,1
@@ -1661,9 +1626,6 @@ Date,Material,Count
 1890,wood->boxwood,2
 1890,wood->basswood,1
 1890,wood->walnut - possible,1
-1890,wood->spruce,4
-1890,wood->mahogany - possible,4
-1890,paper - possible,2
 1891,metal->brass,20
 1891,metal->silver,5
 1891,glass,3
@@ -1766,7 +1728,6 @@ Date,Material,Count
 1893,synthetic - possible,1
 1893,ceramic->porcelain,1
 1893,wood->boxwood,1
-1893,fibre->satin,7
 1894,metal->steel,7
 1894,metal->cast-iron,3
 1894,wood->,7
@@ -1811,13 +1772,13 @@ Date,Material,Count
 1894,synthetic,1
 1894,metal->tin,1
 1895,metal->iron,11
-1895,metal->brass,42
+1895,metal->brass,34
 1895,metal->copper,12
 1895,metal,24
 1895,glass,16
 1895,fibre,14
 1895,paper->card stock,1
-1895,wood->,14
+1895,wood->,13
 1895,paper,25
 1895,wood,27
 1895,,3
@@ -1878,7 +1839,7 @@ Date,Material,Count
 1896,,1
 1896,stone->granite,1
 1896,wood,10
-1896,metal->cast-iron,3
+1896,metal->cast-iron,2
 1896,metal->tin,1
 1896,glass->,6
 1896,bone->ivory,2
@@ -1909,7 +1870,6 @@ Date,Material,Count
 1896,resin - possible,1
 1896,stone->mica,1
 1896,fibre->silk,1
-1896,wood->pine,1
 1897,paper->cardboard,3
 1897,paper,25
 1897,metal,21
@@ -1936,7 +1896,7 @@ Date,Material,Count
 1897,skin->leather,4
 1897,glass->enamel,3
 1897,fibre,5
-1897,paper->,7
+1897,paper->,6
 1897,metal->copper,8
 1897,metal->lead,1
 1897,metal->chromium - possible,1
@@ -1952,12 +1912,10 @@ Date,Material,Count
 1897,wood->rosewood,1
 1897,wood->pine - possible,2
 1897,metal->brass - possible,1
-1897,paper - possible,1
-1897,synthetic->imitation leather,1
 1898,metal,25
 1898,glass,21
 1898,ceramic,3
-1898,paper,30
+1898,paper,28
 1898,metal->,7
 1898,ceramic->,1
 1898,stone->asbestos,1
@@ -2041,27 +1999,27 @@ Date,Material,Count
 1899,paper->cardboard,2
 1899,metal - possible,1
 1900,metal->iron,92
-1900,glass,140
-1900,metal,291
-1900,wood,209
-1900,fibre,83
-1900,metal->brass,194
-1900,wood->,140
+1900,glass,139
+1900,metal,287
+1900,wood,208
+1900,fibre,81
+1900,metal->brass,193
+1900,wood->,138
 1900,metal->steel,144
 1900,bone->ivory,9
 1900,fibre->felt,9
-1900,synthetic,53
+1900,synthetic,52
 1900,metal->aluminum,12
 1900,stone->mica,13
 1900,metal->silver,6
 1900,paper,149
-1900,metal->,69
-1900,skin->leather,65
+1900,metal->,66
+1900,skin->leather,64
 1900,metal->iron - possible,7
 1900,ceramic,16
 1900,resin->rubber - possible,8
 1900,wood->oak - possible,2
-1900,skin,2
+1900,skin,1
 1900,resin,3
 1900,fibre->,20
 1900,resin->rubber,32
@@ -2092,7 +2050,7 @@ Date,Material,Count
 1900,stone->slate,2
 1900,stone->marble,2
 1900,metal->zinc,2
-1900,paper->cardboard,32
+1900,paper->cardboard,31
 1900,resin->ebonite,4
 1900,wood->mahogany,11
 1900,wood->pine,1
@@ -2104,7 +2062,7 @@ Date,Material,Count
 1900,fibre->silk,3
 1900,ceramic->,5
 1900,synthetic->celluloid,2
-1900,synthetic->,13
+1900,synthetic->,11
 1900,ceramic->earthenware,1
 1900,wood->cherry - possible,1
 1900,animal->hair,2
@@ -2119,7 +2077,7 @@ Date,Material,Count
 1900,bone->horn,1
 1900,metal->tin - possible,2
 1900,stone->asbestos,6
-1900,stone,9
+1900,stone,5
 1900,animal->,2
 1900,stone->slate - possible,1
 1900,resin->vulcanite,1
@@ -2131,7 +2089,7 @@ Date,Material,Count
 1900,synthetic->French ivory,1
 1900,metal->platinum,29
 1900,composite,1
-1900,fibre->linen,3
+1900,fibre->linen,2
 1900,bone,1
 1900,fibre->wool,1
 1900,metal->gold,1
@@ -2150,7 +2108,7 @@ Date,Material,Count
 1900,metal->lead - possible,1
 1900,wood->quassia,1
 1900,metal->nickel - possible,3
-1900,metal->brass - possible,6
+1900,metal->brass - possible,5
 1900,fibre->wool - possible,1
 1900,fibre->cotton - possible,3
 1900,metal->copper - possible,1
@@ -2163,11 +2121,6 @@ Date,Material,Count
 1900,resin->vulcanite - possible,1
 1900,stone - possible->asbestos - possible,1
 1900,composite->ink,1
-1900,stone->limestone - possible,1
-1900,fibre->canvas - possible,1
-1900,synthetic - possible->French ivory - possible,1
-1900,resin - possible->rubber - possible,2
-1900,synthetic - possible,2
 1901,wood->spruce,1
 1901,paper,13
 1901,metal->iron,3
@@ -2324,7 +2277,6 @@ Date,Material,Count
 1903,synthetic->celluloid,1
 1903,fibre->silk - possible,1
 1903,animal->hair,1
-1903,paper - possible,1
 1904,glass->,16
 1904,metal->brass,19
 1904,metal->copper,8
@@ -2359,7 +2311,7 @@ Date,Material,Count
 1904,wood->cypress,1
 1904,fibre,9
 1904,fibre->silk,1
-1904,paper,24
+1904,paper,23
 1904,metal->aluminum,1
 1904,ceramic->porcelain,9
 1904,metal->platinum,5
@@ -2375,10 +2327,9 @@ Date,Material,Count
 1904,metal->cast-iron,3
 1904,ceramic->porcelain - possible,1
 1904,metal->tungsten,6
-1904,paper - possible,1
 1905,metal->iron,17
 1905,metal->brass,37
-1905,metal,47
+1905,metal,46
 1905,synthetic,12
 1905,glass,26
 1905,ceramic,2
@@ -2397,16 +2348,16 @@ Date,Material,Count
 1905,metal->,22
 1905,fibre,12
 1905,fibre->felt,4
-1905,metal->mercury,2
+1905,metal->mercury,1
 1905,fibre->canvas,1
 1905,resin->rubber,7
 1905,synthetic->leatherette,2
-1905,glass->,59
+1905,glass->,58
 1905,paper->cardboard,3
 1905,paper->,5
 1905,skin - possible->leather - possible,1
 1905,metal->cast-iron,5
-1905,paper,16
+1905,paper,14
 1905,resin->wax,2
 1905,synthetic->bakelite,2
 1905,fibre->cotton,1
@@ -2442,8 +2393,7 @@ Date,Material,Count
 1905,metal->silver ,1
 1905,synthetic->celluloid,1
 1905,fibre->velvet - possible,1
-1905,metal->brass - possible,1
-1906,paper,23
+1906,paper,22
 1906,fibre->linen,1
 1906,synthetic,7
 1906,fibre,6
@@ -2527,7 +2477,7 @@ Date,Material,Count
 1907,wood->oak,4
 1907,metal->aluminum,3
 1907,ceramic,4
-1907,paper,5
+1907,paper,4
 1907,skin,2
 1907,fibre->,4
 1907,synthetic->,3
@@ -2570,7 +2520,7 @@ Date,Material,Count
 1908,metal->steel,17
 1908,synthetic->bakelite,2
 1908,synthetic->plastic,1
-1908,paper,20
+1908,paper,17
 1908,fibre,12
 1908,wood->,12
 1908,metal->nickel,8
@@ -2660,18 +2610,11 @@ Date,Material,Count
 1909,fibre->felt,4
 1909,fibre->jute,3
 1909,fibre->velvet,1
-1909,stone,1
-1909,metal->iron - possible,1
-1909,metal->copper - possible,1
-1909,metal->brass - possible,1
-1909,metal->steel - possible,1
-1909,paper - possible->,1
-1909,stone->asbestos - possible,1
 1910,wood->ash,1
 1910,metal->brass,131
 1910,metal->tin,8
-1910,metal,110
-1910,wood,91
+1910,metal,108
+1910,wood,90
 1910,fibre,36
 1910,metal->nickel,24
 1910,metal->platinum,76
@@ -2683,7 +2626,7 @@ Date,Material,Count
 1910,metal->steel,82
 1910,paper->cardboard,17
 1910,,14
-1910,glass,111
+1910,glass,110
 1910,fibre->canvas,5
 1910,metal->cast-iron - possible,1
 1910,paper->,18
@@ -2776,7 +2719,7 @@ Date,Material,Count
 1911,synthetic->bakelite,1
 1911,synthetic->plastic,3
 1911,fibre,31
-1911,metal,24
+1911,metal,22
 1911,metal->iron,9
 1911,metal->aluminum,23
 1911,wood->,16
@@ -2793,7 +2736,7 @@ Date,Material,Count
 1911,fibre->felt,1
 1911,metal->chromium,2
 1911,wood->poplar,1
-1911,glass,21
+1911,glass,20
 1911,synthetic->,1
 1911,skin->leather,7
 1911,metal->nickel,9
@@ -2959,7 +2902,7 @@ Date,Material,Count
 1914,glass,49
 1914,skin->leather,39
 1914,fibre,28
-1914,paper,50
+1914,paper,49
 1914,,4
 1914,metal->aluminum,11
 1914,wood,30
@@ -3107,13 +3050,13 @@ Date,Material,Count
 1915,shell->,1
 1915,fibre->silk,1
 1916,paper->cardboard,11
-1916,paper->card stock,7
+1916,paper->card stock,6
 1916,metal,55
 1916,,10
-1916,glass,34
+1916,glass,33
 1916,skin->leather,17
 1916,animal->hair,1
-1916,metal->steel,22
+1916,metal->steel,21
 1916,fibre,19
 1916,metal->aluminum,6
 1916,paper,20
@@ -3126,7 +3069,7 @@ Date,Material,Count
 1916,synthetic,14
 1916,glass->,10
 1916,paper->,2
-1916,wood->,16
+1916,wood->,15
 1916,resin->ebonite,2
 1916,fibre->felt,5
 1916,metal->,14
@@ -3315,7 +3258,7 @@ Date,Material,Count
 1919,skin->leather - possible,1
 1919,metal->brass,26
 1919,metal,51
-1919,paper,27
+1919,paper,26
 1919,fibre,17
 1919,skin->leather,10
 1919,,8
@@ -3365,18 +3308,18 @@ Date,Material,Count
 1919,synthetic->celluloid,1
 1919,fluid,1
 1920,wood,184
-1920,fibre,80
+1920,fibre,76
 1920,fibre->linen - possible,1
-1920,metal,369
+1920,metal,367
 1920,synthetic,119
 1920,glass->,154
-1920,metal->,166
+1920,metal->,165
 1920,synthetic->bakelite,104
 1920,paper,145
 1920,fibre->cotton,16
 1920,fibre->flannel,1
-1920,glass,178
-1920,,127
+1920,glass,176
+1920,,126
 1920,ceramic->,21
 1920,synthetic->carbon,71
 1920,fibre->,29
@@ -3384,7 +3327,7 @@ Date,Material,Count
 1920,skin->leather,63
 1920,metal->steel,222
 1920,metal->brass,218
-1920,paper->card stock,6
+1920,paper->card stock,5
 1920,resin - possible,1
 1920,wood->birch,4
 1920,wood->spruce,4
@@ -3457,7 +3400,7 @@ Date,Material,Count
 1920,metal->steel - possible,21
 1920,metal->aluminum - possible,4
 1920,metal->chromium - possible,5
-1920,metal->nickel - possible,2
+1920,metal->nickel - possible,1
 1920,stone->,2
 1920,fluid->alcohol,1
 1920,animal,1
@@ -3508,7 +3451,7 @@ Date,Material,Count
 1921,glass,16
 1921,paper->card stock,1
 1921,metal->copper - possible,19
-1921,paper,57
+1921,paper,56
 1921,wood,21
 1921,metal,45
 1921,synthetic->nylon - possible,1
@@ -3620,16 +3563,16 @@ Date,Material,Count
 1922,wood->ash,1
 1923,,12
 1923,synthetic->bakelite,26
-1923,metal,83
+1923,metal,81
 1923,glass->,12
 1923,metal->brass,23
 1923,ceramic,8
 1923,paper,45
-1923,glass,58
+1923,glass,55
 1923,synthetic,41
 1923,fibre,14
-1923,metal->,26
-1923,skin->leather,15
+1923,metal->,25
+1923,skin->leather,14
 1923,wood,26
 1923,wood->,24
 1923,resin->rubber,6
@@ -3641,7 +3584,7 @@ Date,Material,Count
 1923,metal->aluminum - possible,1
 1923,fibre->,2
 1923,metal->cast-iron,5
-1923,ceramic->porcelain,2
+1923,ceramic->porcelain,1
 1923,metal->aluminum,4
 1923,metal->bronze,2
 1923,metal->lead,2
@@ -3674,7 +3617,6 @@ Date,Material,Count
 1923,wood->pine,1
 1923,synthetic->bakelite - possible,1
 1923,resin->phenolic,1
-1923,fibre->felt - possible,1
 1924,wood,44
 1924,metal,97
 1924,synthetic,56
@@ -3725,7 +3667,7 @@ Date,Material,Count
 1924,metal->aluminum - possible,1
 1924,composite->fibreboard - possible,1
 1924,paper->cardboard - possible,1
-1924,paper->card stock,5
+1924,paper->card stock,4
 1924,synthetic->bakelite - possible,1
 1924,skin,1
 1924,metal->steel - possible,1
@@ -3746,8 +3688,8 @@ Date,Material,Count
 1924,metal->cast-iron,1
 1924,resin->wax,2
 1924,fibre->linen,1
-1925,metal,173
-1925,glass,110
+1925,metal,171
+1925,glass,109
 1925,synthetic,102
 1925,paper,79
 1925,paper->cardboard,9
@@ -3792,7 +3734,7 @@ Date,Material,Count
 1925,ceramic->porcelain,22
 1925,metal->iron,19
 1925,metal->bronze,4
-1925,skin->leather,32
+1925,skin->leather,31
 1925,synthetic->,14
 1925,glass->enamel,3
 1925,wood->oak,3
@@ -3834,7 +3776,6 @@ Date,Material,Count
 1925,metal->aluminum - possible,1
 1925,fibre->wool,2
 1925,fibre->canvas - possible,1
-1925,metal->silver - possible,1
 1926,paper,89
 1926,metal->steel,26
 1926,glass->,16
@@ -3848,7 +3789,7 @@ Date,Material,Count
 1926,wood->,17
 1926,resin->rubber,9
 1926,glass,62
-1926,metal,78
+1926,metal,77
 1926,synthetic,66
 1926,,15
 1926,paper->card stock,4
@@ -3856,7 +3797,7 @@ Date,Material,Count
 1926,synthetic->polyethylene,1
 1926,fibre->jute,1
 1926,resin->gutta-percha,1
-1926,wood,24
+1926,wood,23
 1926,metal->nickel,7
 1926,skin->,1
 1926,metal->duralumin,2
@@ -3941,13 +3882,13 @@ Date,Material,Count
 1927,ceramic->porcelain,2
 1927,plant->wicker,1
 1927,fibre->linen,2
-1927,paper->card stock,3
+1927,paper->card stock,2
 1927,metal->steel - possible,1
 1928,synthetic->plastic,8
 1928,paper->card stock,4
 1928,fibre,17
 1928,metal,64
-1928,paper,110
+1928,paper,108
 1928,wood->,26
 1928,metal->steel,26
 1928,metal->cast-iron,6
@@ -3991,7 +3932,7 @@ Date,Material,Count
 1928,animal->hair,2
 1928,synthetic->elastic,1
 1928,ceramic,2
-1928,metal->tin - possible,6
+1928,metal->tin - possible,5
 1928,wood - possible->,2
 1928,skin->leather - possible,2
 1928,metal->silver,2
@@ -4008,7 +3949,7 @@ Date,Material,Count
 1928,animal->shellac,1
 1928,metal->mercury,1
 1928,wood->cork,1
-1928,metal->tin,3
+1928,metal->tin,1
 1928,wood->cork - possible,1
 1928,synthetic - possible,1
 1929,wood,26
@@ -4024,7 +3965,7 @@ Date,Material,Count
 1929,wood->,20
 1929,fibre->,5
 1929,metal->,19
-1929,resin->rubber,21
+1929,resin->rubber,20
 1929,paper->cardboard,11
 1929,metal->aluminum,11
 1929,metal->copper,9
@@ -4046,7 +3987,7 @@ Date,Material,Count
 1929,synthetic->,4
 1929,metal->chromium,4
 1929,metal->stainless steel,1
-1929,metal->brass - possible,2
+1929,metal->brass - possible,1
 1929,metal->tin,5
 1929,fibre->velvet,1
 1929,stone->,1
@@ -4069,20 +4010,17 @@ Date,Material,Count
 1929,plant->straw,1
 1929,paper->,3
 1929,wood - possible->,1
-1929,metal->copper - possible,2
+1929,metal->copper - possible,1
 1929,fibre->cotton - possible,1
 1929,resin->rubber - possible,1
 1929,stone->asbestos - possible,1
-1929,metal->iron - possible,1
-1929,metal->steel - possible,1
-1929,synthetic->plexiglass,1
-1930,metal,375
-1930,paper,211
-1930,glass,224
-1930,synthetic,205
+1930,metal,360
+1930,paper,208
+1930,glass,220
+1930,synthetic,204
 1930,skin->leather,84
 1930,skin->chamois,1
-1930,wood,183
+1930,wood,181
 1930,metal->bronze,8
 1930,glass->,101
 1930,metal->brass,138
@@ -4090,19 +4028,19 @@ Date,Material,Count
 1930,metal->steel,162
 1930,metal->copper,51
 1930,synthetic->plastic,26
-1930,fibre,101
+1930,fibre,100
 1930,paper->cardboard,36
 1930,metal->brass - possible,2
 1930,metal->iron,52
 1930,metal->aluminum,51
 1930,stone->asbestos,5
-1930,wood->,95
+1930,wood->,94
 1930,paper->card stock,11
 1930,wood->oak - possible,2
 1930,metal->iron - possible,1
 1930,metal->white metal,1
 1930,,71
-1930,metal->,145
+1930,metal->,144
 1930,resin->rubber,89
 1930,animal->hair - possible,2
 1930,fibre->,22
@@ -4153,7 +4091,7 @@ Date,Material,Count
 1930,fibre->velvet,6
 1930,fibre->linen,2
 1930,metal->steel - possible,5
-1930,synthetic - possible,6
+1930,synthetic - possible,5
 1930,resin->wax,4
 1930,metal->copper - possible,2
 1930,metal->silver,2
@@ -4193,7 +4131,7 @@ Date,Material,Count
 1930,fluid,1
 1930,fibre->wool - possible,1
 1930,paper->papier-mache,22
-1930,paper - possible,16
+1930,paper - possible,12
 1930,synthetic->mylar - possible,1
 1930,metal->tin - possible,1
 1930,metal - possible,1
@@ -4202,7 +4140,7 @@ Date,Material,Count
 1930,resin - possible->wax - possible,1
 1930,paper->wax paper - possible,2
 1930,paper->card stock - possible,1
-1930,resin - possible->rubber - possible,3
+1930,resin - possible->rubber - possible,2
 1930,synthetic - possible->,1
 1930,wood - possible->,1
 1930,fibre->velvet - possible,2
@@ -4211,8 +4149,8 @@ Date,Material,Count
 1930,wood->rosewood - possible,1
 1931,metal->steel,18
 1931,metal->aluminum,11
-1931,glass,39
-1931,metal,40
+1931,glass,38
+1931,metal,39
 1931,synthetic,22
 1931,paper,39
 1931,wood,13
@@ -4258,8 +4196,8 @@ Date,Material,Count
 1932,glass->,11
 1932,synthetic->,6
 1932,stone->mica,1
-1932,metal,75
-1932,glass,55
+1932,metal,72
+1932,glass,54
 1932,synthetic,49
 1932,metal->,16
 1932,synthetic->bakelite - possible,2
@@ -4316,7 +4254,7 @@ Date,Material,Count
 1933,metal->,27
 1933,synthetic->plastic,9
 1933,metal->aluminum,9
-1933,metal->steel,8
+1933,metal->steel,7
 1933,synthetic->,5
 1933,resin->rubber,5
 1933,fibre->cotton,2
@@ -4393,10 +4331,10 @@ Date,Material,Count
 1934,paper->,1
 1934,fibre->linen,1
 1934,fibre->wool,1
-1935,metal,166
+1935,metal,164
 1935,paper,105
 1935,glass,78
-1935,synthetic,89
+1935,synthetic,88
 1935,metal->aluminum,24
 1935,metal->iron,12
 1935,metal->cast-iron,12
@@ -4481,11 +4419,11 @@ Date,Material,Count
 1935,wood->cedar,1
 1935,wood->spruce,1
 1935,wood->ash - possible,1
-1936,metal,93
+1936,metal,91
 1936,synthetic,52
-1936,glass,67
+1936,glass,66
 1936,paper,59
-1936,skin->leather,27
+1936,skin->leather,25
 1936,skin->chamois,2
 1936,fibre->cotton,8
 1936,fibre->linen,5
@@ -4495,7 +4433,7 @@ Date,Material,Count
 1936,wood->,13
 1936,synthetic->plastic,15
 1936,paper->cardboard,12
-1936,fibre,21
+1936,fibre,20
 1936,fibre->,6
 1936,composite->ink,2
 1936,animal->glue,1
@@ -4503,14 +4441,14 @@ Date,Material,Count
 1936,metal->copper,5
 1936,metal->lead,1
 1936,metal->white metal - possible,1
-1936,metal->,33
+1936,metal->,32
 1936,metal->aluminum,11
 1936,,2
 1936,metal->brass,25
 1936,fibre->canvas,5
 1936,synthetic->,8
 1936,metal->iron,9
-1936,resin->rubber,13
+1936,resin->rubber,11
 1936,metal->nickel,2
 1936,resin->ebonite,1
 1936,glass->,14
@@ -4542,7 +4480,6 @@ Date,Material,Count
 1936,fibre->silk - possible,1
 1936,synthetic - possible,1
 1936,fibre->linen - possible,1
-1936,synthetic->imitation leather,1
 1937,glass,75
 1937,metal,124
 1937,synthetic,86
@@ -4596,12 +4533,12 @@ Date,Material,Count
 1937,composite->,1
 1937,composite->ink,1
 1937,animal->glue,1
-1937,paper->card stock,8
+1937,paper->card stock,7
 1937,synthetic->leatherette - possible,1
 1937,fibre->,4
 1937,paper->wax paper - possible,1
 1937,paper->glassine - possible,1
-1937,fibre->linen - possible,2
+1937,fibre->linen - possible,1
 1937,stone->mica,1
 1937,ceramic->porcelain,2
 1937,resin->wax,2
@@ -4635,7 +4572,7 @@ Date,Material,Count
 1938,wood,26
 1938,fibre,20
 1938,ceramic,6
-1938,paper,56
+1938,paper,55
 1938,metal->cast-iron,6
 1938,metal->,32
 1938,synthetic->plexiglass - possible,1
@@ -4680,10 +4617,10 @@ Date,Material,Count
 1938,composite->fibreboard,1
 1938,metal->mercury,1
 1939,wood,26
-1939,fibre,62
+1939,fibre,60
 1939,glass,84
 1939,metal,127
-1939,paper,135
+1939,paper,132
 1939,synthetic,77
 1939,metal->aluminum,30
 1939,metal->copper,11
@@ -4692,15 +4629,15 @@ Date,Material,Count
 1939,fibre->,27
 1939,synthetic->,21
 1939,glass->,29
-1939,metal->steel,72
+1939,metal->steel,71
 1939,synthetic->plastic,47
 1939,resin->rubber,47
 1939,skin->leather,45
-1939,fibre->cotton - possible,4
+1939,fibre->cotton - possible,3
 1939,fibre->canvas - possible,3
 1939,,12
 1939,wood->oak,5
-1939,metal->,61
+1939,metal->,60
 1939,metal->brass,52
 1939,skin,1
 1939,synthetic->vinyl,1
@@ -4760,21 +4697,18 @@ Date,Material,Count
 1939,metal->cast-iron - possible,1
 1939,synthetic->nylon - possible,1
 1939,fibre->wool,6
-1939,ceramic->porcelain,2
-1939,wood->cherry,1
-1939,fibre->felt - possible,2
 1940,fibre->gabardine,1
 1940,skin->sheep,2
 1940,skin->leather,68
-1940,metal,472
+1940,metal,455
 1940,metal->,114
 1940,glass,253
 1940,metal->brass,90
 1940,metal->iron,28
 1940,wood->,71
-1940,synthetic->,47
+1940,synthetic->,46
 1940,fibre->felt,19
-1940,paper,173
+1940,paper,172
 1940,synthetic,262
 1940,glass->,78
 1940,synthetic->bakelite,59
@@ -4789,16 +4723,16 @@ Date,Material,Count
 1940,wood,121
 1940,fibre->,28
 1940,synthetic->plastic,49
-1940,metal->steel,161
+1940,metal->steel,160
 1940,wood->birch,2
 1940,wood->spruce,2
 1940,synthetic->cellulose,2
 1940,metal->aluminum - possible,3
-1940,fibre,106
+1940,fibre,101
 1940,,22
 1940,paper->card stock,27
 1940,metal->platinum,1
-1940,metal->silver,5
+1940,metal->silver,4
 1940,fibre->canvas,12
 1940,synthetic->foam,1
 1940,metal->copper,28
@@ -4827,7 +4761,7 @@ Date,Material,Count
 1940,metal->stainless steel,9
 1940,stone->asbestos,3
 1940,synthetic - possible,14
-1940,fibre->velvet,6
+1940,fibre->velvet,4
 1940,metal->bronze,2
 1940,animal->intestine,1
 1940,metal->tin - possible,1
@@ -4849,7 +4783,7 @@ Date,Material,Count
 1940,synthetic->formica,1
 1940,metal->mercury,1
 1940,metal - possible->,1
-1940,metal->lead,6
+1940,metal->lead,5
 1940,skin->chamois,2
 1940,stone->diamond,1
 1940,resin->wax,2
@@ -4881,27 +4815,25 @@ Date,Material,Count
 1940,wood - possible,2
 1940,synthetic->nylon - possible,1
 1940,fibre->serge,1
-1940,skin->leather - possible,2
-1940,fibre->wool - possible,2
 1941,wood,16
 1941,glass,41
-1941,metal->steel,53
+1941,metal->steel,50
 1941,metal->iron,4
 1941,wood->,29
 1941,metal->aluminum,20
 1941,synthetic->elastic,4
-1941,fibre,28
-1941,paper->cardboard,19
+1941,fibre,27
+1941,paper->cardboard,18
 1941,glass->,21
 1941,metal->aluminum - possible,2
-1941,paper->card stock,26
-1941,metal,61
+1941,paper->card stock,25
+1941,metal,60
 1941,synthetic,26
-1941,fibre->,16
+1941,fibre->,15
 1941,synthetic->polycarbonate - possible,2
 1941,resin->rubber,15
-1941,metal->,22
-1941,wood->pine,4
+1941,metal->,21
+1941,wood->pine,1
 1941,metal->copper,7
 1941,ceramic,3
 1941,paper,105
@@ -4929,7 +4861,7 @@ Date,Material,Count
 1941,fibre->wool,1
 1941,synthetic->carbon,1
 1941,resin->,1
-1941,wood->cork,2
+1941,wood->cork,1
 1941,metal->nickel,2
 1941,fibre->linen,7
 1941,ceramic->porcelain,3
@@ -4944,11 +4876,9 @@ Date,Material,Count
 1941,metal->platinum,1
 1941,synthetic->foam,1
 1941,metal->silver,1
-1941,fibre->canvas - possible,2
+1941,fibre->canvas - possible,1
 1941,synthetic->plexiglass,5
 1941,synthetic->nylon - possible,2
-1941,wood->pine - possible,1
-1941,fibre->sisal,1
 1942,wood,11
 1942,metal,80
 1942,skin->leather,8
@@ -4960,13 +4890,13 @@ Date,Material,Count
 1942,glass,35
 1942,synthetic,42
 1942,paper,155
-1942,paper->,46
-1942,paper->card stock,24
+1942,paper->,41
+1942,paper->card stock,22
 1942,animal->hair,1
 1942,synthetic->leatherette,5
 1942,wood - possible->,1
-1942,metal->steel,106
-1942,fibre,36
+1942,metal->steel,101
+1942,fibre,29
 1942,metal->cast-iron,1
 1942,wood->,14
 1942,metal->brass,28
@@ -4983,7 +4913,7 @@ Date,Material,Count
 1942,ceramic,5
 1942,metal->molybdenum,1
 1942,metal->silver,1
-1942,fibre->felt,3
+1942,fibre->felt,2
 1942,fibre->cotton,1
 1942,synthetic->rayon,2
 1942,synthetic->nylon,1
@@ -5029,20 +4959,20 @@ Date,Material,Count
 1943,metal,66
 1943,skin->chamois,1
 1943,metal->,33
-1943,metal->steel,61
+1943,metal->steel,59
 1943,glass,45
 1943,synthetic,37
-1943,paper,244
+1943,paper,240
 1943,fibre->,18
 1943,metal->brass,23
-1943,paper->card stock,29
-1943,fibre,29
-1943,paper->,40
+1943,paper->card stock,28
+1943,fibre,28
+1943,paper->,38
 1943,glass->,23
 1943,wood->,19
 1943,metal->aluminum,17
 1943,synthetic->rayon,1
-1943,fibre->silk,3
+1943,fibre->silk,2
 1943,synthetic->,7
 1943,fibre->linen,21
 1943,metal->aluminum - possible,1
@@ -5098,18 +5028,18 @@ Date,Material,Count
 1943,synthetic - possible,1
 1943,metal->brass - possible,2
 1943,metal->steel - possible,1
-1944,metal,127
-1944,glass,62
-1944,paper,239
-1944,fibre,37
+1944,metal,124
+1944,glass,59
+1944,paper,224
+1944,fibre,34
 1944,ceramic,9
 1944,synthetic,93
 1944,metal->iron,11
-1944,metal->steel,62
+1944,metal->steel,57
 1944,wood->,23
 1944,metal->nickel,3
 1944,fibre->,9
-1944,metal->brass,28
+1944,metal->brass,27
 1944,synthetic->bakelite - possible,1
 1944,metal->aluminum,22
 1944,resin->rubber,26
@@ -5120,7 +5050,7 @@ Date,Material,Count
 1944,metal->,30
 1944,synthetic->polycarbonate - possible,2
 1944,synthetic->bakelite,12
-1944,paper->,42
+1944,paper->,41
 1944,glass->,11
 1944,wood,17
 1944,metal->copper,10
@@ -5128,12 +5058,12 @@ Date,Material,Count
 1944,metal->silver,1
 1944,synthetic->,14
 1944,fibre->felt,4
-1944,skin->leather,19
+1944,skin->leather,14
 1944,wood->oak,1
 1944,fibre->cotton,7
 1944,metal->chromium,1
 1944,glass->enamel,1
-1944,paper->card stock,14
+1944,paper->card stock,6
 1944,fibre->silk,3
 1944,synthetic->acrylic,1
 1944,synthetic->leatherette,2
@@ -5141,9 +5071,9 @@ Date,Material,Count
 1944,metal->magnesium,1
 1944,synthetic->vinyl,1
 1944,synthetic->neoprene,1
-1944,paper->cardboard,9
-1944,fibre->canvas,5
-1944,fibre->wool,6
+1944,paper->cardboard,8
+1944,fibre->canvas,4
+1944,fibre->wool,4
 1944,fibre->canvas - possible,1
 1944,composite->ink,6
 1944,synthetic->carbon,1
@@ -5160,42 +5090,40 @@ Date,Material,Count
 1944,stone->mica,2
 1944,metal->tin,1
 1944,metal - possible,1
-1944,skin->chamois,4
+1944,skin->chamois,3
 1944,skin,2
 1944,resin - possible,1
 1944,stone->silica,1
 1944,metal->stainless steel,1
 1944,fibre->felt - possible,1
-1944,synthetic->plastic - possible,2
-1944,fibre->linen - possible,1
 1945,wood->pine,1
 1945,metal->brass,27
 1945,glass,90
 1945,metal,183
 1945,synthetic,92
-1945,paper,120
+1945,paper,103
 1945,metal->iron,7
-1945,metal->steel,78
+1945,metal->steel,71
 1945,synthetic->bakelite,18
 1945,glass->,34
 1945,metal->,53
-1945,paper->card stock,24
+1945,paper->card stock,23
 1945,synthetic->plexiglass,5
 1945,skin->leather,20
 1945,synthetic->plastic,25
 1945,fibre,41
 1945,wood,37
 1945,fibre->wool,2
-1945,fibre->silk - possible,5
+1945,fibre->silk - possible,1
 1945,glass->enamel,6
 1945,,7
 1945,wood->,26
 1945,synthetic->polycarbonate - possible,1
 1945,resin->rubber,36
 1945,synthetic->,19
-1945,metal->brass - possible,6
+1945,metal->brass - possible,5
 1945,metal->aluminum - possible,8
-1945,metal->aluminum,20
+1945,metal->aluminum,19
 1945,ceramic,9
 1945,metal->bronze,5
 1945,metal->lead,2
@@ -5230,7 +5158,7 @@ Date,Material,Count
 1945,metal->zinc,6
 1945,resin,1
 1945,metal->nickel,15
-1945,paper->,20
+1945,paper->,13
 1945,resin->vulcanite,2
 1945,fibre->canvas - possible,1
 1945,metal->stainless steel,3
@@ -5253,23 +5181,21 @@ Date,Material,Count
 1945,wood->bamboo - possible,2
 1945,fibre->linen,1
 1945,synthetic->plastic - possible,1
-1945,fibre->wool - possible,1
-1945,composite->ink,1
 1946,glass,35
-1946,metal,97
+1946,metal,96
 1946,synthetic,38
-1946,paper,46
+1946,paper,44
 1946,skin->leather,14
 1946,animal->hair,1
 1946,fibre->canvas,6
 1946,fibre->hemp - possible,6
-1946,wood,21
+1946,wood,20
 1946,synthetic->nylon - possible,2
 1946,wood->,19
 1946,synthetic->plastic,22
-1946,metal->,39
+1946,metal->,36
 1946,synthetic->polycarbonate - possible,1
-1946,resin->rubber,23
+1946,resin->rubber,22
 1946,synthetic->plexiglass - possible,1
 1946,,4
 1946,ceramic,2
@@ -5283,14 +5209,14 @@ Date,Material,Count
 1946,metal->iron,1
 1946,metal->chromium,2
 1946,resin->ebonite,1
-1946,metal->aluminum,20
+1946,metal->aluminum,19
 1946,metal->brass,9
 1946,resin->,1
 1946,fibre->felt,2
 1946,paper->cardboard,16
 1946,glass->enamel,2
-1946,synthetic->,14
-1946,glass->,24
+1946,synthetic->,12
+1946,glass->,23
 1946,synthetic->leatherette,2
 1946,metal->stainless steel,3
 1946,metal->steel - possible,2
@@ -5298,7 +5224,7 @@ Date,Material,Count
 1946,skin->leather - possible,1
 1946,metal->cast-iron,2
 1946,glass - possible,1
-1946,paper->,3
+1946,paper->,2
 1946,metal->copper,4
 1946,metal->copper - possible,1
 1946,metal->white metal,1
@@ -5322,10 +5248,6 @@ Date,Material,Count
 1946,fibre->wool - possible,1
 1946,fibre->wool,1
 1946,metal->tin,1
-1946,paper - possible->,1
-1946,fibre - possible->,1
-1946,glass->fibreglass - possible,1
-1946,resin - possible->rubber - possible,1
 1947,glass,56
 1947,metal,326
 1947,wood,21
@@ -5347,7 +5269,7 @@ Date,Material,Count
 1947,wood->plywood,1
 1947,skin->leather,13
 1947,fibre,19
-1947,wood->,13
+1947,wood->,12
 1947,metal->copper,3
 1947,wood->birch,1
 1947,metal->cast-iron,7
@@ -5387,7 +5309,6 @@ Date,Material,Count
 1947,metal->gold,1
 1947,glass->enamel,1
 1947,animal->hair,1
-1947,metal->tin - possible,1
 1948,metal->cast-iron,6
 1948,metal->steel,28
 1948,metal,88
@@ -5518,27 +5439,27 @@ Date,Material,Count
 1949,metal->stainless steel - possible,1
 1949,resin - possible->rubber - possible,7
 1949,glass->enamel,2
-1950,glass,363
-1950,metal,695
-1950,synthetic,393
-1950,paper,157
+1950,glass,362
+1950,metal,692
+1950,synthetic,390
+1950,paper,156
 1950,metal->steel,249
 1950,metal->silver,2
 1950,stone->marble,2
-1950,fibre->felt,12
-1950,wood,118
+1950,fibre->felt,11
+1950,wood,117
 1950,,83
-1950,metal->,207
+1950,metal->,204
 1950,skin->leather,85
 1950,resin->rubber,111
 1950,paper->cardboard,75
 1950,metal->aluminum,91
 1950,metal->iron,40
-1950,fibre,59
-1950,synthetic->,94
+1950,fibre,58
+1950,synthetic->,93
 1950,metal->lead,5
 1950,wood->cork,4
-1950,wood->,79
+1950,wood->,78
 1950,ceramic,20
 1950,metal->chromium - possible,4
 1950,fibre->,30
@@ -5580,7 +5501,7 @@ Date,Material,Count
 1950,fibre->jute,2
 1950,fibre->hemp,1
 1950,metal->white metal,2
-1950,metal->nickel - possible,3
+1950,metal->nickel - possible,1
 1950,fibre->canvas,7
 1950,synthetic->vinyl,16
 1950,glass->enamel,17
@@ -5643,11 +5564,7 @@ Date,Material,Count
 1950,fibre->gabardine,2
 1950,metal->gold,5
 1950,stone,9
-1950,fibre->felt - possible,3
-1950,metal - possible,1
-1950,skin - possible->leather - possible,2
-1950,metal - possible->,1
-1950,synthetic->celluloid - possible,1
+1950,fibre->felt - possible,1
 1951,metal->,29
 1951,synthetic->plexiglass,1
 1951,wood,6
@@ -5789,20 +5706,20 @@ Date,Material,Count
 1953,paper,21
 1953,fibre->,10
 1953,metal->,38
-1953,skin->leather,11
-1953,synthetic->plastic,87
+1953,skin->leather,10
+1953,synthetic->plastic,86
 1953,paper->card stock,8
 1953,metal->aluminum - possible,6
 1953,synthetic->polycarbonate - possible,1
 1953,resin->rubber,10
 1953,wood->,15
 1953,metal->nickel,1
-1953,fibre,57
-1953,synthetic->,13
+1953,fibre,55
+1953,synthetic->,11
 1953,paper->cardboard,10
 1953,ceramic,1
-1953,metal->steel,39
-1953,metal->brass,76
+1953,metal->steel,35
+1953,metal->brass,71
 1953,wood,15
 1953,metal->copper,2
 1953,synthetic->bakelite,6
@@ -5814,7 +5731,7 @@ Date,Material,Count
 1953,synthetic->vinyl,4
 1953,glass->enamel,3
 1953,fibre->velvet - possible,1
-1953,fibre->wool,4
+1953,fibre->wool,2
 1953,synthetic->rayon - possible,1
 1953,fluid->,1
 1953,resin->vulcanite,1
@@ -5844,25 +5761,23 @@ Date,Material,Count
 1953,fibre - possible,1
 1953,synthetic->plastic - possible,4
 1953,skin - possible->leather - possible,1
-1953,synthetic->polyester,6
-1953,metal->brass - possible,7
+1953,synthetic->polyester,4
+1953,metal->brass - possible,6
 1953,fibre->felt,2
-1953,synthetic - possible->,1
-1953,fibre->wool - possible,2
 1954,glass,70
 1954,synthetic,54
-1954,metal,85
+1954,metal,82
 1954,paper,29
 1954,wood->,8
-1954,synthetic->plastic,33
+1954,synthetic->plastic,32
 1954,,29
 1954,metal->iron,3
-1954,fibre,16
+1954,fibre,15
 1954,metal->aluminum - possible,11
-1954,metal->steel,32
+1954,metal->steel,31
 1954,fibre->,5
 1954,glass->,17
-1954,wood,33
+1954,wood,31
 1954,metal->aluminum,22
 1954,metal->,32
 1954,synthetic->,11
@@ -5875,7 +5790,7 @@ Date,Material,Count
 1954,metal->brass - possible,4
 1954,wood->birch,2
 1954,metal->copper,1
-1954,skin->leather,24
+1954,skin->leather,23
 1954,fibre->canvas,18
 1954,metal->tin,1
 1954,synthetic->vinyl,3
@@ -5896,7 +5811,7 @@ Date,Material,Count
 1954,fluid->alcohol,1
 1954,fibre->cotton - possible,3
 1954,synthetic->leatherette - possible,1
-1954,paper->,3
+1954,paper->,2
 1954,synthetic->plastic - possible,1
 1954,glass->fibreglass - possible,1
 1954,paper - possible,1
@@ -5904,22 +5819,21 @@ Date,Material,Count
 1954,fibre->felt - possible,1
 1954,synthetic - possible,1
 1954,fibre->wool - possible,1
-1954,fibre->wool,1
 1955,metal->aluminum,27
 1955,metal->copper,7
 1955,metal->steel,32
 1955,metal->iron,1
-1955,synthetic,78
-1955,metal,108
+1955,synthetic,77
+1955,metal,107
 1955,fibre->,6
-1955,metal->,45
+1955,metal->,44
 1955,synthetic->plastic,42
 1955,resin->wax,1
 1955,metal->brass - possible,2
 1955,metal->copper - possible,1
 1955,glass,69
 1955,fibre->cotton,3
-1955,resin->rubber,23
+1955,resin->rubber,22
 1955,wood,20
 1955,paper,29
 1955,synthetic->polyethylene,2
@@ -5976,14 +5890,14 @@ Date,Material,Count
 1955,metal->bronze - possible,1
 1955,metal->magnesium,1
 1955,fibre->gabardine,1
-1956,metal,76
+1956,metal,75
 1956,synthetic,54
 1956,wood,20
-1956,glass,41
+1956,glass,40
 1956,paper,37
 1956,fibre->silk,3
 1956,metal->,31
-1956,synthetic->plastic,31
+1956,synthetic->plastic,30
 1956,synthetic->nylon,4
 1956,synthetic->elastic,2
 1956,metal->copper,7
@@ -5992,12 +5906,12 @@ Date,Material,Count
 1956,fibre->felt,1
 1956,wood->,10
 1956,fibre->cotton,4
-1956,resin->rubber,16
+1956,resin->rubber,15
 1956,ceramic,1
 1956,wood->oak,1
-1956,metal->steel,28
-1956,metal->brass,7
-1956,fibre,10
+1956,metal->steel,27
+1956,metal->brass,6
+1956,fibre,9
 1956,metal->iron,4
 1956,metal->chromium,3
 1956,glass->,33
@@ -6018,7 +5932,7 @@ Date,Material,Count
 1956,animal->hair,1
 1956,metal->cast-iron,2
 1956,glass->fibreglass,2
-1956,paper->card stock,11
+1956,paper->card stock,10
 1956,fluid->alcohol,3
 1956,paper->cardboard,8
 1956,fibre->,3
@@ -6034,10 +5948,8 @@ Date,Material,Count
 1956,fibre->velvet,1
 1956,fibre->cotton - possible,1
 1956,metal->mercury - possible,10
-1956,wood - possible->,1
-1956,synthetic->leatherette - possible,1
 1957,paper,28
-1957,metal->steel,25
+1957,metal->steel,24
 1957,metal->aluminum,22
 1957,synthetic->plexiglass,2
 1957,synthetic->plastic,31
@@ -6051,8 +5963,8 @@ Date,Material,Count
 1957,paper->cardboard,56
 1957,fibre->,7
 1957,synthetic->polyester,1
-1957,metal,92
-1957,synthetic,61
+1957,metal,89
+1957,synthetic,59
 1957,metal->brass,11
 1957,metal->copper,4
 1957,synthetic->bakelite,9
@@ -6081,7 +5993,7 @@ Date,Material,Count
 1957,fibre->oil-cloth,1
 1957,metal->mercury,1
 1957,glass->fibreglass,1
-1957,paper->card stock,14
+1957,paper->card stock,9
 1957,metal->silver,1
 1957,metal->lead,1
 1957,metal->aluminum - possible,1
@@ -6100,30 +6012,27 @@ Date,Material,Count
 1957,fibre->felt - possible,2
 1957,wood - possible->,1
 1957,fibre->velvet - possible,1
-1957,synthetic->leatherette - possible,1
-1957,metal - possible,1
-1957,synthetic - possible,1
-1958,metal->,30
+1958,metal->,26
 1958,synthetic->plastic,30
-1958,resin->rubber,11
-1958,glass,73
+1958,resin->rubber,10
+1958,glass,72
 1958,fibre,12
 1958,metal->brass,6
 1958,glass->,8
-1958,paper->cardboard,20
-1958,metal,157
-1958,synthetic,73
-1958,metal->aluminum,23
+1958,paper->cardboard,17
+1958,metal,152
+1958,synthetic,67
+1958,metal->aluminum,22
 1958,resin->phenolic,1
 1958,synthetic->polycarbonate - possible,1
 1958,metal->duralumin,1
 1958,glass->fibreglass,1
 1958,metal->aluminum - possible,2
 1958,,4
-1958,wood,44
+1958,wood,43
 1958,paper,112
 1958,metal->copper,4
-1958,metal->steel,21
+1958,metal->steel,20
 1958,metal->lead,2
 1958,paper->,4
 1958,wood->,7
@@ -6134,11 +6043,11 @@ Date,Material,Count
 1958,synthetic->nylon,1
 1958,synthetic->vinyl,5
 1958,glass->enamel,2
-1958,synthetic->,18
+1958,synthetic->,17
 1958,metal->iron,6
 1958,ceramic,3
 1958,resin - possible->rubber - possible,3
-1958,skin->leather,8
+1958,skin->leather,7
 1958,resin,3
 1958,metal->mercury,1
 1958,metal->nickel,1
@@ -6157,7 +6066,7 @@ Date,Material,Count
 1958,fibre->silk,1
 1958,stone,1
 1958,metal->stainless steel,1
-1958,metal->gold,5
+1958,metal->gold,1
 1958,fibre->felt,1
 1958,fibre->silk - possible,1
 1958,wood->mahogany - possible,1
@@ -6219,8 +6128,8 @@ Date,Material,Count
 1959,fibre->wool,1
 1959,synthetic->rayon - possible,1
 1959,fibre->felt - possible,1
-1960,metal,532
-1960,synthetic,409
+1960,metal,525
+1960,synthetic,404
 1960,synthetic->plastic,96
 1960,metal->,115
 1960,fibre->felt,8
@@ -6228,13 +6137,13 @@ Date,Material,Count
 1960,glass->,49
 1960,synthetic->,67
 1960,skin->leather,52
-1960,fibre,44
+1960,fibre,40
 1960,glass,295
 1960,paper,127
 1960,paper->cardboard,29
 1960,composite->ink,4
 1960,resin->wax,1
-1960,wood,64
+1960,wood,63
 1960,metal->copper,23
 1960,synthetic->polyurethane,2
 1960,fibre->canvas,5
@@ -6242,7 +6151,7 @@ Date,Material,Count
 1960,stone->diamond,1
 1960,resin->rubber,43
 1960,metal->steel,96
-1960,metal->brass,37
+1960,metal->brass,35
 1960,metal->cast-iron,2
 1960,wood->,46
 1960,fibre->,11
@@ -6256,7 +6165,7 @@ Date,Material,Count
 1960,metal->chromium,14
 1960,metal->magnesium,2
 1960,synthetic->dacron,1
-1960,synthetic->plexiglass,5
+1960,synthetic->plexiglass,3
 1960,synthetic->vinyl,9
 1960,synthetic->leatherette,7
 1960,fibre->silk,3
@@ -6315,13 +6224,11 @@ Date,Material,Count
 1960,metal->lead - possible,1
 1960,paper - possible->cardboard,1
 1960,synthetic->foam - possible,1
-1960,composite,1
-1960,fibre->cotton - possible,1
 1961,paper->cardboard,12
 1961,composite->ink,2
 1961,fibre,12
-1961,metal,69
-1961,synthetic,49
+1961,metal,64
+1961,synthetic,44
 1961,glass,11
 1961,wood,10
 1961,,1
@@ -6329,7 +6236,7 @@ Date,Material,Count
 1961,metal->aluminum,11
 1961,metal->steel,32
 1961,synthetic->plastic,27
-1961,metal->,33
+1961,metal->,29
 1961,synthetic->leatherette,5
 1961,wood->,11
 1961,metal->brass,8
@@ -6340,10 +6247,10 @@ Date,Material,Count
 1961,metal->cast-iron,1
 1961,glass->fibreglass,1
 1961,synthetic->vinyl,3
-1961,resin->rubber,17
+1961,resin->rubber,16
 1961,paper->,6
 1961,metal->tin,1
-1961,synthetic->,20
+1961,synthetic->,19
 1961,resin->rubber - possible,1
 1961,fibre->velvet,2
 1961,fibre->satin - possible,1
@@ -6367,13 +6274,12 @@ Date,Material,Count
 1961,resin - possible,1
 1961,metal->iron - possible,5
 1961,metal->steel - possible,1
-1961,resin - possible->rubber - possible,3
-1962,metal,112
-1962,synthetic,57
+1962,metal,98
+1962,synthetic,53
 1962,glass,45
 1962,metal->copper,2
 1962,paper,43
-1962,metal->,26
+1962,metal->,24
 1962,synthetic->plexiglass,1
 1962,wood,27
 1962,fibre,12
@@ -6381,7 +6287,7 @@ Date,Material,Count
 1962,synthetic->plastic,25
 1962,synthetic->bakelite,3
 1962,metal->brass,9
-1962,resin->rubber,14
+1962,resin->rubber,13
 1962,paper->cardboard,18
 1962,wood->birch,1
 1962,metal->steel,14
@@ -6394,16 +6300,16 @@ Date,Material,Count
 1962,synthetic->leatherette,2
 1962,synthetic->vinyl,3
 1962,metal->gold,8
-1962,resin->rubber - possible,2
+1962,resin->rubber - possible,1
 1962,synthetic->styrofoam - possible,1
 1962,synthetic->arborite,1
 1962,metal->chromium,1
-1962,glass->,11
+1962,glass->,10
 1962,fluid->,1
 1962,wood->oak,2
 1962,glass->fibreglass,1
-1962,synthetic->,8
-1962,ceramic,38
+1962,synthetic->,7
+1962,ceramic,2
 1962,bone,1
 1962,metal->mercury - possible,1
 1962,paper->,2
@@ -6426,15 +6332,13 @@ Date,Material,Count
 1962,fluid,1
 1962,fibre->velvet,2
 1962,metal->brass - possible,2
-1962,synthetic - possible,1
-1962,fibre - possible,1
 1963,paper->cardboard,27
 1963,glass,33
-1963,synthetic,61
+1963,synthetic,54
 1963,metal,95
 1963,paper,232
 1963,metal->aluminum,15
-1963,metal->steel,25
+1963,metal->steel,23
 1963,resin->rubber,18
 1963,synthetic->plexiglass - possible,3
 1963,wood->oak,1
@@ -6444,8 +6348,8 @@ Date,Material,Count
 1963,wood,13
 1963,metal->iron,1
 1963,synthetic->bakelite,3
-1963,synthetic->plastic,243
-1963,metal->brass,8
+1963,synthetic->plastic,242
+1963,metal->brass,6
 1963,fibre->cotton,1
 1963,metal->chromium,2
 1963,glass->,14
@@ -6477,9 +6381,8 @@ Date,Material,Count
 1963,glass->enamel,2
 1963,metal->silver,1
 1963,synthetic->plexiglass,1
-1963,fibre->wool,3
 1964,fibre,13
-1964,metal,104
+1964,metal,103
 1964,synthetic->nylon,1
 1964,metal->brass,8
 1964,metal->steel,52
@@ -6491,7 +6394,7 @@ Date,Material,Count
 1964,synthetic->acrylic,3
 1964,paper,57
 1964,wood,25
-1964,synthetic,64
+1964,synthetic,63
 1964,synthetic->plastic,113
 1964,resin->rubber,7
 1964,paper->cardboard,14
@@ -6542,25 +6445,25 @@ Date,Material,Count
 1964,metal->steel - possible,1
 1964,fibre->wool - possible,3
 1964,skin->leather - possible,1
-1964,synthetic->plastic - possible,2
+1964,synthetic->plastic - possible,1
 1964,synthetic->acetate - possible,1
 1964,synthetic->acetate,2
 1964,fibre->silk - possible,1
-1965,metal,157
+1965,metal,156
 1965,synthetic,80
 1965,glass->fibreglass,11
-1965,resin->rubber,25
+1965,resin->rubber,23
 1965,synthetic->foam,3
 1965,skin->leather,19
-1965,wood->,18
+1965,wood->,17
 1965,metal->cast-iron,1
-1965,metal->steel,52
+1965,metal->steel,51
 1965,fibre->,7
-1965,synthetic->plastic,60
+1965,synthetic->plastic,59
 1965,synthetic->acrylic,1
 1965,paper->cardboard,11
 1965,wood,62
-1965,glass,52
+1965,glass,51
 1965,paper,46
 1965,wood->cork - possible,2
 1965,stone->sand,1
@@ -6570,7 +6473,7 @@ Date,Material,Count
 1965,metal->chromium,2
 1965,glass->enamel,21
 1965,metal->brass - possible,1
-1965,metal->,67
+1965,metal->,65
 1965,glass->,27
 1965,metal->nickel,1
 1965,metal->tin,1
@@ -6578,7 +6481,7 @@ Date,Material,Count
 1965,synthetic->vinyl,2
 1965,fibre,34
 1965,resin->rubber - possible,1
-1965,synthetic->,18
+1965,synthetic->,17
 1965,synthetic->leatherette - possible,1
 1965,metal->iron,4
 1965,synthetic->plexiglass,1
@@ -6594,7 +6497,7 @@ Date,Material,Count
 1965,synthetic->silicone,3
 1965,metal->platinum,1
 1965,synthetic->lucite,1
-1965,fibre->felt,14
+1965,fibre->felt,13
 1965,synthetic->plastic - possible,3
 1965,synthetic->elastic - possible,2
 1965,ceramic,4
@@ -6628,8 +6531,8 @@ Date,Material,Count
 1965,paper - possible,1
 1965,glass - possible,1
 1965,wood->plywood,1
-1966,fibre,12
-1966,metal,150
+1966,fibre,9
+1966,metal,148
 1966,metal->,31
 1966,synthetic->plastic,130
 1966,,16
@@ -6649,7 +6552,7 @@ Date,Material,Count
 1966,metal->steel - possible,4
 1966,resin->rubber - possible,2
 1966,synthetic->plastic - possible,1
-1966,synthetic,71
+1966,synthetic,70
 1966,metal->tin - possible,1
 1966,metal->cast-iron - possible,41
 1966,wood->cork - possible,1
@@ -6706,8 +6609,8 @@ Date,Material,Count
 1966,metal->silver,1
 1966,synthetic->foam,3
 1966,skin - possible->leather - possible,1
-1967,wood->,28
-1967,metal->,40
+1967,wood->,27
+1967,metal->,38
 1967,fibre->,23
 1967,synthetic->plastic,52
 1967,metal,134
@@ -6723,7 +6626,7 @@ Date,Material,Count
 1967,glass->fibreglass,1
 1967,fibre,33
 1967,synthetic->,25
-1967,synthetic,134
+1967,synthetic,131
 1967,fibre->silk,6
 1967,metal->copper,4
 1967,fibre->cotton,4
@@ -6732,7 +6635,7 @@ Date,Material,Count
 1967,wood->cedar,1
 1967,fibre->canvas,2
 1967,paper,45
-1967,paper->cardboard,23
+1967,paper->cardboard,22
 1967,fibre->cotton - possible,2
 1967,metal->iron,3
 1967,metal->chromium,1
@@ -6768,15 +6671,15 @@ Date,Material,Count
 1967,fluid->alcohol,2
 1967,metal->titanium,1
 1967,metal->aluminum - possible,1
-1967,fibre->felt - possible,2
+1967,fibre->felt - possible,1
 1967,fibre->satin - possible,1
-1967,resin - possible->rubber - possible,3
+1967,resin - possible->rubber - possible,2
 1967,stone->sulphur,1
 1967,ceramic,1
-1968,metal->,51
-1968,skin->leather,14
+1968,metal->,46
+1968,skin->leather,12
 1968,synthetic,62
-1968,metal,130
+1968,metal,124
 1968,glass,116
 1968,fibre->,11
 1968,resin->wax,1
@@ -6787,12 +6690,12 @@ Date,Material,Count
 1968,metal->tin,2
 1968,metal->iron,4
 1968,synthetic->plastic,53
-1968,wood->,14
+1968,wood->,12
 1968,synthetic->plexiglass,3
 1968,metal->steel,25
 1968,wood,12
 1968,metal->aluminum,12
-1968,resin->rubber,24
+1968,resin->rubber,21
 1968,fibre->velvet - possible,1
 1968,fibre->felt - possible,2
 1968,ceramic->plaster,1
@@ -6804,11 +6707,11 @@ Date,Material,Count
 1968,glass->fibreglass,2
 1968,metal->lead,4
 1968,metal->chromium,2
-1968,synthetic->,18
+1968,synthetic->,17
 1968,paper,45
 1968,synthetic->leatherette,2
 1968,synthetic->bakelite,1
-1968,paper->cardboard,13
+1968,paper->cardboard,11
 1968,ceramic - possible,1
 1968,paper->card stock,12
 1968,stone->marble,1
@@ -6901,8 +6804,8 @@ Date,Material,Count
 1969,fibre->wool - possible,2
 1969,fibre->cotton - possible,3
 1970,glass,82
-1970,metal,398
-1970,synthetic,357
+1970,metal,380
+1970,synthetic,327
 1970,paper,122
 1970,ceramic,10
 1970,metal->copper,23
@@ -6912,13 +6815,13 @@ Date,Material,Count
 1970,synthetic->nylon,10
 1970,metal->aluminum,82
 1970,metal->steel,71
-1970,resin->rubber,31
-1970,metal->,59
+1970,resin->rubber,30
+1970,metal->,58
 1970,fibre,21
 1970,,22
 1970,wood->mahogany,1
 1970,metal->brass,28
-1970,synthetic->,37
+1970,synthetic->,36
 1970,metal->lead,64
 1970,wood->,20
 1970,fibre->,8
@@ -6995,7 +6898,7 @@ Date,Material,Count
 1971,fibre->cotton,2
 1971,synthetic->polyester,7
 1971,synthetic->plastic,21
-1971,synthetic,82
+1971,synthetic,80
 1971,glass,31
 1971,,1
 1971,wood,13
@@ -7097,8 +7000,8 @@ Date,Material,Count
 1972,metal->aluminum - possible,1
 1972,fibre->felt,1
 1973,glass,18
-1973,metal,69
-1973,synthetic,64
+1973,metal,66
+1973,synthetic,62
 1973,paper,63
 1973,metal->aluminum,6
 1973,wood,12
@@ -7203,30 +7106,30 @@ Date,Material,Count
 1974,synthetic->nylon - possible,1
 1974,glass - possible,1
 1975,synthetic->plastic,50
-1975,metal,126
-1975,metal->steel,20
+1975,metal,109
+1975,metal->steel,19
 1975,metal->stainless steel,1
 1975,wood->,9
 1975,metal->brass,4
 1975,wood,33
 1975,glass,22
-1975,fibre,10
-1975,paper,54
-1975,metal->,33
+1975,fibre,9
+1975,paper,51
+1975,metal->,32
 1975,resin->rubber,17
-1975,,2
+1975,,1
 1975,paper - possible,11
 1975,fibre->canvas,1
 1975,glass->,15
-1975,paper->cardboard,11
+1975,paper->cardboard,10
 1975,metal->chromium,2
 1975,skin->leather,5
-1975,synthetic,110
+1975,synthetic,90
 1975,fibre->silk - possible,1
 1975,skin->parchment - possible,1
 1975,synthetic->vinyl,4
 1975,metal->aluminum,5
-1975,paper->,9
+1975,paper->,8
 1975,metal->mercury,5
 1975,fluid->alcohol,4
 1975,metal->copper - possible,1
@@ -7238,7 +7141,7 @@ Date,Material,Count
 1975,synthetic->nylon,3
 1975,metal->zirconium,1
 1975,ceramic->,1
-1975,synthetic->,17
+1975,synthetic->,16
 1975,metal->indium arsenide,1
 1975,metal->zinc,10
 1975,paper->card stock,62
@@ -7257,11 +7160,10 @@ Date,Material,Count
 1975,metal->mercury - possible,1
 1975,glass->enamel - possible,1
 1975,synthetic->plexiglass,1
-1975,fibre->cotton,2
+1975,fibre->cotton,1
 1975,synthetic->styrofoam,1
 1975,metal->aluminum - possible,1
 1975,synthetic->neoprene - possible,1
-1975,glass->enamel,1
 1976,fibre->wool,13
 1976,synthetic->polyester,15
 1976,metal,91
@@ -7275,7 +7177,7 @@ Date,Material,Count
 1976,wood,10
 1976,metal->iron,1
 1976,resin->rubber,3
-1976,synthetic,65
+1976,synthetic,62
 1976,paper->pulp,1
 1976,synthetic->plastic,20
 1976,glass,21
@@ -7307,12 +7209,11 @@ Date,Material,Count
 1976,fibre->cotton,4
 1976,glass->enamel,1
 1976,synthetic->elastic,2
-1976,resin - possible->rubber - possible,1
-1977,synthetic->,11
-1977,metal->,16
+1977,synthetic->,9
+1977,metal->,14
 1977,stone->quartz,1
-1977,metal,105
-1977,synthetic,102
+1977,metal,76
+1977,synthetic,74
 1977,wood->,9
 1977,metal->copper - possible,1
 1977,metal->brass,2
@@ -7330,8 +7231,8 @@ Date,Material,Count
 1977,wood->bamboo,1
 1977,fibre->cotton,1
 1977,paper,36
-1977,resin->rubber,10
-1977,glass,19
+1977,resin->rubber,9
+1977,glass,16
 1977,metal->chromium,1
 1977,ceramic,3
 1977,metal->tungsten,1
@@ -7341,7 +7242,7 @@ Date,Material,Count
 1977,metal->stainless steel,4
 1977,fibre->,2
 1977,paper->tissue,2
-1977,paper->card stock,33
+1977,paper->card stock,32
 1977,metal->brass - possible,2
 1977,resin->phenolic,1
 1977,glass->,1
@@ -7354,7 +7255,7 @@ Date,Material,Count
 1977,synthetic->vinyl,1
 1977,skin->leather,1
 1977,resin - possible->rubber - possible,3
-1978,metal,73
+1978,metal,71
 1978,glass->,6
 1978,fluid->oil,1
 1978,metal->copper,3
@@ -7370,7 +7271,7 @@ Date,Material,Count
 1978,metal->brass,1
 1978,metal->brass - possible,1
 1978,metal->chromium,6
-1978,synthetic,61
+1978,synthetic,57
 1978,glass,9
 1978,synthetic->,18
 1978,paper->cardboard,6
@@ -7412,12 +7313,12 @@ Date,Material,Count
 1979,synthetic->leatherette,1
 1979,wood,9
 1979,paper,58
-1979,metal,46
+1979,metal,45
 1979,wood->mahogany,1
 1979,skin->leather,4
 1979,fibre->satin,1
 1979,glass,16
-1979,synthetic,47
+1979,synthetic,45
 1979,synthetic->plastic,14
 1979,synthetic->vinyl,1
 1979,synthetic->bakelite,1
@@ -7449,8 +7350,8 @@ Date,Material,Count
 1979,synthetic->plexiglass,1
 1979,metal->gold,1
 1980,metal->steel,32
-1980,resin->rubber,30
-1980,synthetic,274
+1980,resin->rubber,19
+1980,synthetic,234
 1980,glass->,29
 1980,metal->mercury,4
 1980,metal->lead,3
@@ -7458,30 +7359,30 @@ Date,Material,Count
 1980,metal->antimony,1
 1980,wood->mahogany,1
 1980,metal->brass,8
-1980,fibre->,8
-1980,skin->leather,5
-1980,metal->,45
+1980,fibre->,7
+1980,skin->leather,4
+1980,metal->,34
 1980,synthetic->vinyl,1
 1980,fibre->canvas,1
 1980,metal->bronze,2
-1980,wood,22
+1980,wood,14
 1980,wood->cork,1
-1980,paper->cardboard,36
+1980,paper->cardboard,33
 1980,fibre->velvet,2
 1980,wood->boxwood,1
 1980,metal->brass - possible,6
 1980,fibre,17
 1980,synthetic->plastic,48
-1980,metal,233
+1980,metal,192
 1980,fibre - possible,1
-1980,paper,119
+1980,paper,112
 1980,glass,38
 1980,metal->aluminum,39
 1980,metal->iron,2
 1980,metal->copper,3
 1980,wood->,13
 1980,synthetic->plexiglass,3
-1980,glass - possible,4
+1980,glass - possible,2
 1980,,32
 1980,paper->,16
 1980,synthetic->polyethylene,1
@@ -7491,7 +7392,7 @@ Date,Material,Count
 1980,metal->iron - possible,1
 1980,skin->hide - possible,1
 1980,fibre->felt,1
-1980,synthetic->,39
+1980,synthetic->,28
 1980,paper->card stock,17
 1980,synthetic->tricot,1
 1980,synthetic->spandex,1
@@ -7508,7 +7409,7 @@ Date,Material,Count
 1980,metal->gold - possible,1
 1980,synthetic->leatherette - possible,1
 1980,synthetic->foam,2
-1980,synthetic->nylon,2
+1980,synthetic->nylon,1
 1980,metal->nickel,1
 1980,ceramic,1
 1980,synthetic->leatherette,1
@@ -7533,7 +7434,6 @@ Date,Material,Count
 1980,synthetic->plastic - possible,1
 1980,synthetic - possible->leatherette - possible,1
 1980,paper - possible,4
-1980,synthetic->plexiglass - possible,1
 1981,paper->cardboard,8
 1981,metal->copper,2
 1981,fibre->,1
@@ -7542,8 +7442,8 @@ Date,Material,Count
 1981,wood,7
 1981,synthetic->plastic,13
 1981,paper,44
-1981,metal,42
-1981,synthetic,51
+1981,metal,39
+1981,synthetic,48
 1981,glass - possible,1
 1981,metal->,16
 1981,glass - possible->,1
@@ -7554,7 +7454,7 @@ Date,Material,Count
 1981,synthetic->polyester,1
 1981,metal->steel,17
 1981,metal->aluminum,5
-1981,skin->leather,5
+1981,skin->leather,4
 1981,wood->cork,1
 1981,metal->brass - possible,1
 1981,fibre->felt,1
@@ -7578,13 +7478,13 @@ Date,Material,Count
 1982,paper,50
 1982,metal->steel,9
 1982,wood,8
-1982,metal->,19
+1982,metal->,17
 1982,synthetic->plastic,15
 1982,skin->leather,2
-1982,metal,93
+1982,metal,90
 1982,synthetic - possible,5
 1982,metal->steel - possible,2
-1982,synthetic,101
+1982,synthetic,99
 1982,metal->bronze,1
 1982,glass->fibreglass,2
 1982,fibre,7
@@ -7601,7 +7501,7 @@ Date,Material,Count
 1982,metal->iron,1
 1982,skin->leather - possible,1
 1982,ceramic->plaster,1
-1982,synthetic->,7
+1982,synthetic->,5
 1982,synthetic->acrylic,3
 1982,metal - possible,1
 1982,fibre->wool,2
@@ -7622,20 +7522,19 @@ Date,Material,Count
 1982,synthetic->acetate - possible,1
 1982,skin - possible->leather - possible,1
 1982,paper - possible,4
-1982,synthetic->imitation leather,2
 1983,metal->,27
 1983,synthetic->plastic,7
 1983,resin->rubber,8
-1983,synthetic,44
-1983,metal,60
+1983,synthetic,42
+1983,metal,58
 1983,fibre,6
 1983,fibre->,1
-1983,paper,34
+1983,paper,33
 1983,wood->,7
 1983,glass->,7
 1983,paper->cardboard,11
 1983,synthetic->PVC (polyvinylchloride),1
-1983,glass,5
+1983,glass,4
 1983,paper->card stock,2
 1983,metal->steel,3
 1983,fibre->felt,1
@@ -7652,7 +7551,7 @@ Date,Material,Count
 1983,metal->iron - possible,1
 1983,synthetic->styrofoam,1
 1983,composite->fibreboard - possible,1
-1983,synthetic - possible,2
+1983,synthetic - possible,1
 1983,wood->oak - possible,1
 1983,skin - possible->leather - possible,1
 1983,metal->bronze,1
@@ -7661,27 +7560,27 @@ Date,Material,Count
 1983,resin->rubber - possible,1
 1983,resin->,1
 1984,,2
-1984,metal->,35
+1984,metal->,34
 1984,fibre->,3
 1984,glass->,10
 1984,synthetic->plastic,21
 1984,resin->rubber,24
 1984,paper->card stock,31
-1984,wood,7
+1984,wood,6
 1984,wood->,4
 1984,paper->cardboard,12
-1984,synthetic->,35
+1984,synthetic->,34
 1984,synthetic->plastic - possible,1
 1984,paper,54
 1984,fibre->cotton,3
 1984,skin->leather - possible,1
-1984,metal,77
-1984,metal->aluminum,7
+1984,metal,74
+1984,metal->aluminum,5
 1984,metal->iron,1
 1984,paper->,10
 1984,fibre,6
 1984,glass,11
-1984,synthetic,93
+1984,synthetic,90
 1984,metal->steel,6
 1984,fibre->canvas,1
 1984,fibre->silk,1
@@ -7699,15 +7598,15 @@ Date,Material,Count
 1984,synthetic->plexiglass,1
 1984,fluid,1
 1984,synthetic->styrofoam,1
-1984,resin - possible->rubber - possible,4
+1984,resin - possible->rubber - possible,3
 1984,resin->,2
 1984,synthetic->polycarbonate,1
 1984,resin,1
 1985,fibre->canvas,2
 1985,fibre->cotton,4
 1985,fibre->wool,12
-1985,metal,68
-1985,synthetic,76
+1985,metal,64
+1985,synthetic,72
 1985,synthetic->vinyl,3
 1985,paper->cardboard,15
 1985,synthetic->polyester,7
@@ -7754,13 +7653,13 @@ Date,Material,Count
 1986,synthetic->plastic,16
 1986,wood,4
 1986,stone - possible,1
-1986,paper,52
+1986,paper,51
 1986,glass->,7
 1986,wood->,4
 1986,paper->,10
 1986,resin->,1
 1986,metal->copper,6
-1986,metal->aluminum,8
+1986,metal->aluminum,7
 1986,synthetic->acrylic,2
 1986,glass->fibreglass,2
 1986,synthetic->,21
@@ -7772,7 +7671,7 @@ Date,Material,Count
 1986,synthetic->foam,2
 1986,metal->gold - possible,1
 1986,metal->silver - possible,1
-1986,glass->enamel,4
+1986,glass->enamel,3
 1986,resin->rubber,9
 1986,resin->rubber - possible,3
 1986,metal->stainless steel,1
@@ -7811,19 +7710,19 @@ Date,Material,Count
 1987,glass,10
 1987,synthetic->plastic,21
 1987,synthetic->foam,3
-1987,paper,72
+1987,paper,64
 1987,metal->,20
 1987,synthetic->,15
 1987,wood,13
 1987,metal->bronze,1
-1987,metal,60
-1987,synthetic,51
+1987,metal,49
+1987,synthetic,46
 1987,synthetic->styrofoam,1
 1987,metal->invar,1
 1987,resin->rubber,3
 1987,metal->silver,7
 1987,synthetic->plastic - possible,1
-1987,skin->leather,3
+1987,skin->leather,2
 1987,synthetic->vinyl,1
 1987,synthetic->nylon,1
 1987,paper->,9
@@ -7837,7 +7736,7 @@ Date,Material,Count
 1987,synthetic->polyester,16
 1987,fibre->wool,5
 1987,synthetic->acrylic,2
-1987,fibre->cotton,4
+1987,fibre->cotton,3
 1987,->,2
 1987,metal->gold,6
 1987,glass->enamel,16
@@ -7847,20 +7746,20 @@ Date,Material,Count
 1987,metal->aluminum - possible,1
 1987,metal->brass,1
 1987,glass->enamel - possible,1
-1988,paper,77
+1988,paper,75
 1988,synthetic->plastic,39
 1988,resin->rubber,6
-1988,synthetic,65
-1988,metal,63
+1988,synthetic,50
+1988,metal,53
 1988,wood,4
 1988,paper->,3
 1988,glass->,2
 1988,wood->,4
 1988,metal->steel,28
 1988,synthetic - possible,2
-1988,fibre,4
-1988,paper->cardboard,7
-1988,metal->,11
+1988,fibre,3
+1988,paper->cardboard,6
+1988,metal->,10
 1988,fibre->,4
 1988,synthetic->elastic,3
 1988,paper->card stock,13
@@ -7871,12 +7770,12 @@ Date,Material,Count
 1988,synthetic->acetate,2
 1988,metal->tin,2
 1988,fibre->satin,6
-1988,synthetic->nylon,9
+1988,synthetic->nylon,8
 1988,synthetic->leatherette,2
 1988,fibre->cotton,14
 1988,fibre->felt,1
-1988,glass,7
-1988,synthetic->,10
+1988,glass,6
+1988,synthetic->,8
 1988,ceramic->,1
 1988,metal->brass - possible,2
 1988,metal->silver,1
@@ -7890,10 +7789,6 @@ Date,Material,Count
 1988,resin - possible->rubber - possible,2
 1988,synthetic->plexiglass,1
 1988,synthetic->foam,1
-1988,synthetic->nylon - possible,2
-1988,synthetic->imitation leather,1
-1988,skin - possible->leather - possible,1
-1988,synthetic->styrofoam - possible,2
 1989,synthetic->plastic,10
 1989,synthetic->polyester,3
 1989,synthetic->foam,2
@@ -7909,7 +7804,7 @@ Date,Material,Count
 1989,paper,32
 1989,glass,12
 1989,glass->,5
-1989,synthetic,51
+1989,synthetic,50
 1989,paper->card stock,15
 1989,synthetic->,18
 1989,paper->,3
@@ -7940,9 +7835,9 @@ Date,Material,Count
 1989,metal - possible->,1
 1989,metal->aluminum - possible,2
 1989,metal->stainless steel,2
-1990,metal,90
-1990,synthetic,120
-1990,paper,70
+1990,metal,78
+1990,synthetic,109
+1990,paper,68
 1990,metal->copper,4
 1990,metal->nickel,1
 1990,synthetic->plastic,32
@@ -7952,14 +7847,14 @@ Date,Material,Count
 1990,wood,49
 1990,fibre,5
 1990,wood->,5
-1990,metal->,42
+1990,metal->,37
 1990,glass->,5
 1990,fibre->canvas,2
 1990,metal->silver,2
 1990,metal->gold,2
 1990,paper->cardboard,6
 1990,metal->stainless steel,1
-1990,resin->rubber,32
+1990,resin->rubber,26
 1990,paper->card stock,30
 1990,metal->aluminum,5
 1990,fibre->felt,2
@@ -8015,7 +7910,7 @@ Date,Material,Count
 1991,metal->brass - possible,1
 1991,paper->cardboard,26
 1991,synthetic,23
-1991,paper->card stock,26
+1991,paper->card stock,25
 1991,,1
 1991,fibre->canvas,2
 1991,wood - possible->,1
@@ -8039,7 +7934,7 @@ Date,Material,Count
 1992,paper->card stock,8
 1992,wood->,18
 1992,fibre->,9
-1992,metal->steel,19
+1992,metal->steel,18
 1992,paper,32
 1992,glass->,7
 1992,metal->,19
@@ -8049,7 +7944,7 @@ Date,Material,Count
 1992,fibre->canvas,3
 1992,metal,53
 1992,paper->,5
-1992,metal->aluminum,9
+1992,metal->aluminum,8
 1992,synthetic->plexiglass,3
 1992,metal->silver,3
 1992,metal->copper,3
@@ -8057,7 +7952,7 @@ Date,Material,Count
 1992,synthetic->plastic,7
 1992,fibre->felt,2
 1992,synthetic->elastic,1
-1992,synthetic,37
+1992,synthetic,36
 1992,fibre->cotton,1
 1992,resin->rubber,6
 1992,wood->oak,2
@@ -8084,18 +7979,17 @@ Date,Material,Count
 1992,synthetic->dacron,1
 1992,paper->cardboard - possible,1
 1992,resin - possible->rubber - possible,5
-1992,glass->enamel,2
 1993,paper,16
 1993,paper->,6
 1993,glass->,5
-1993,metal->aluminum,10
+1993,metal->aluminum,9
 1993,metal->steel,11
 1993,synthetic->neoprene,1
 1993,skin->leather,1
 1993,paper->cardboard,9
 1993,synthetic->,4
 1993,metal->silver,3
-1993,synthetic,14
+1993,synthetic,13
 1993,metal,11
 1993,fibre->canvas,2
 1993,wood,5
@@ -8104,7 +7998,7 @@ Date,Material,Count
 1993,synthetic->plastic,4
 1993,fibre->felt,2
 1993,synthetic->elastic,2
-1993,resin->rubber,2
+1993,resin->rubber,1
 1993,wood->,5
 1993,paper->card stock,5
 1993,synthetic->acrylic,6
@@ -8114,14 +8008,11 @@ Date,Material,Count
 1993,glass,4
 1993,fibre,1
 1993,metal->aluminum - possible,1
-1993,glass->enamel,1
-1993,metal->,1
-1993,wood->plywood,1
 1994,metal->steel - possible,2
 1994,paper->,8
 1994,glass->,6
 1994,metal->aluminum,9
-1994,metal->steel,8
+1994,metal->steel,7
 1994,wood->,3
 1994,paper,20
 1994,synthetic,28
@@ -8159,7 +8050,6 @@ Date,Material,Count
 1994,glass,3
 1994,skin->leather,1
 1994,resin->rubber,4
-1994,glass->enamel,1
 1995,metal,72
 1995,synthetic,83
 1995,glass,9
@@ -8173,7 +8063,7 @@ Date,Material,Count
 1995,metal->aluminum,6
 1995,metal->steel,14
 1995,synthetic->PVC (polyvinylchloride),1
-1995,paper,45
+1995,paper,44
 1995,paper->,4
 1995,composite->ink,2
 1995,metal->chromium,1
@@ -8208,11 +8098,11 @@ Date,Material,Count
 1995,metal->aluminum - possible,1
 1995,,1
 1995,synthetic->acrylic,2
-1996,paper,41
+1996,paper,39
 1996,wood->,5
 1996,fibre->canvas,2
 1996,paper->card stock,5
-1996,synthetic,49
+1996,synthetic,47
 1996,paper->cardboard,11
 1996,synthetic->,6
 1996,metal->,21
@@ -8226,7 +8116,7 @@ Date,Material,Count
 1996,metal->silver,4
 1996,metal->copper,4
 1996,synthetic->plastic,13
-1996,metal,30
+1996,metal,28
 1996,synthetic->polypropylene,1
 1996,fibre,1
 1996,wood,2
@@ -8295,7 +8185,7 @@ Date,Material,Count
 1998,fibre->velvet,2
 1998,glass->,4
 1998,paper->,4
-1998,metal->steel,4
+1998,metal->steel,3
 1998,synthetic->plexiglass,1
 1998,fibre,1
 1998,glass,8
@@ -8305,20 +8195,19 @@ Date,Material,Count
 1998,metal->brass,1
 1998,synthetic->plexiglass - possible,1
 1998,resin->rubber - possible,1
-1998,glass->enamel,1
-1999,synthetic,11
+1999,synthetic,10
 1999,metal->aluminum,4
 1999,paper->cardboard,4
 1999,glass,2
-1999,paper->,3
+1999,paper->,2
 1999,glass->,1
 1999,metal->steel,6
 1999,paper,9
 1999,metal->silver,2
-1999,metal->copper,3
+1999,metal->copper,2
 1999,metal->gold,2
 1999,synthetic->plastic,6
-1999,metal,10
+1999,metal,8
 1999,synthetic->acrylic,2
 1999,synthetic->vinyl,4
 1999,fibre->canvas,1
@@ -8331,47 +8220,40 @@ Date,Material,Count
 1999,fibre->cotton,2
 1999,glass - possible,1
 1999,resin - possible->rubber - possible,1
-1999,wood->,3
-1999,synthetic->plexiglass,2
-1999,metal->bronze - possible,1
-1999,metal->zinc,1
-1999,fibre->velvet - possible,1
-1999,fibre->,1
-1999,resin->wax,1
+1999,wood->,1
 2000,synthetic,94
-2000,metal,24
+2000,metal,23
 2000,synthetic->,3
-2000,metal->,4
+2000,metal->,3
 2000,paper->cardboard,4
-2000,paper,84
+2000,paper,83
 2000,synthetic->polyester,1
 2000,metal->silver,3
 2000,metal->copper,4
 2000,metal->steel,4
-2000,metal->brass,3
+2000,metal->brass,2
 2000,paper->,2
 2000,glass->,2
 2000,synthetic->plastic,1
-2000,wood,3
-2000,glass,4
+2000,wood,1
+2000,glass,2
 2000,metal->aluminum,2
 2000,fibre->canvas,1
-2000,wood->,2
+2000,wood->,1
 2000,ceramic->plaster,1
 2000,fibre->cotton,1
 2000,metal - possible,61
 2000,resin - possible->rubber - possible,1
 2000,fibre->cotton - possible,2
-2000,fibre->felt,1
 2001,paper->cardboard,13
 2001,glass->,2
-2001,metal->aluminum,5
+2001,metal->aluminum,4
 2001,metal->steel,7
 2001,metal,31
 2001,synthetic,66
 2001,metal->silver,3
 2001,metal->copper,3
-2001,synthetic->,11
+2001,synthetic->,10
 2001,paper->card stock,5
 2001,fibre->cotton,1
 2001,wood->spruce,1
@@ -8382,7 +8264,7 @@ Date,Material,Count
 2001,wood,1
 2001,synthetic->acrylic,1
 2001,wood->,2
-2001,synthetic->plastic,6
+2001,synthetic->plastic,4
 2001,paper,4
 2001,synthetic->silicone,2
 2001,metal->,7
@@ -8393,7 +8275,6 @@ Date,Material,Count
 2001,resin - possible->rubber - possible,2
 2001,glass->fibreglass,1
 2001,fibre,1
-2001,synthetic->polyester,2
 2002,synthetic,33
 2002,paper,10
 2002,synthetic->,3
@@ -8405,7 +8286,7 @@ Date,Material,Count
 2002,fluid->oil,1
 2002,synthetic->plastic,3
 2002,glass->,1
-2002,metal->aluminum,2
+2002,metal->aluminum,1
 2002,metal->steel,4
 2002,synthetic->polypropylene,1
 2002,glass,4
@@ -8417,35 +8298,27 @@ Date,Material,Count
 2002,fibre->felt,2
 2002,synthetic->acrylic,2
 2002,wood->,1
-2002,glass->enamel,1
 2003,glass->,1
 2003,synthetic->silicone,1
-2003,synthetic->plastic,3
+2003,synthetic->plastic,1
 2003,metal->silver - possible,1
-2003,metal->aluminum - possible,2
+2003,metal->aluminum - possible,1
 2003,metal,8
 2003,fibre,48
-2003,synthetic,16
+2003,synthetic,15
 2003,paper,5
-2003,wood->,4
+2003,wood->,3
 2003,metal->,1
 2003,fibre->felt,1
 2003,glass - possible,1
-2003,metal->steel,8
-2003,paper->,2
+2003,metal->steel,3
+2003,paper->,1
 2003,synthetic->foam,1
 2003,synthetic->acrylic,2
-2003,metal->aluminum,4
-2003,synthetic->polyester,1
-2003,synthetic->plexiglass,1
-2003,glass->fibreglass,1
-2003,wood,1
-2003,resin->rubber,1
-2003,skin->leather,1
 2004,paper,5
 2004,wood->,2
 2004,metal->steel,6
-2004,synthetic->,2
+2004,synthetic->,1
 2004,synthetic->plastic - possible,2
 2004,fibre->cotton,1
 2004,synthetic->polyester,1
@@ -8459,10 +8332,6 @@ Date,Material,Count
 2004,glass - possible->,1
 2004,synthetic->nylon,1
 2004,metal->aluminum - possible,1
-2004,metal->aluminum,1
-2004,glass->enamel,1
-2004,synthetic - possible->,1
-2004,fibre->silk,1
 2005,paper,1
 2005,metal->silver,1
 2005,synthetic,2
@@ -8471,7 +8340,7 @@ Date,Material,Count
 2005,fibre->velvet - possible,1
 2005,fibre->satin - possible,1
 2005,fibre->cotton,1
-2005,metal,5
+2005,metal,2
 2005,fibre,2
 2005,wood,1
 2005,paper->card stock,1
@@ -8480,13 +8349,6 @@ Date,Material,Count
 2005,metal->steel,3
 2005,fibre->,1
 2005,synthetic->acrylic,1
-2005,synthetic->plastic,7
-2005,glass,1
-2005,paper->cardboard,1
-2005,resin->rubber - possible,1
-2005,synthetic->foam,1
-2005,metal->brass,1
-2005,synthetic->polyester,1
 2006,synthetic->plastic,3
 2006,synthetic->polyester,1
 2006,metal->steel,1
@@ -8495,31 +8357,21 @@ Date,Material,Count
 2006,synthetic->,3
 2006,paper->cardboard,2
 2006,fibre,2
-2006,synthetic,11
+2006,synthetic,9
 2006,synthetic->polypropylene,1
 2006,metal->,1
 2006,paper->card stock,1
-2006,metal,4
+2006,metal,3
 2006,glass - possible,1
-2006,synthetic->plastic - possible,1
-2006,synthetic->styrofoam,1
-2006,metal->aluminum - possible,1
 2007,synthetic->plastic - possible,1
 2007,metal->brass - possible,1
 2007,paper->card stock - possible,1
 2007,fibre->,1
 2007,synthetic->foam,1
-2007,metal->steel,2
+2007,metal->steel,1
 2007,paper->card stock,1
 2007,synthetic,1
 2007,synthetic->resin,1
-2007,synthetic->silicone,1
-2007,synthetic->plastic,1
-2007,wood->,1
-2007,metal->brass,1
-2007,fibre,1
-2007,wood,1
-2007,paper - possible,1
 2008,wood->spruce,1
 2008,wood->maple,1
 2008,wood->ebony,1
@@ -8540,31 +8392,4 @@ Date,Material,Count
 2008,metal->steel,2
 2008,metal->brass - possible,1
 2008,fibre,1
-2008,synthetic,3
-2008,paper->cardboard,1
-2008,paper,1
-2008,metal->bronze,1
-2009,metal->,1
-2009,synthetic->plastic,1
-2009,metal->steel,2
-2009,paper,1
-2009,metal->bronze - possible,1
-2009,metal,4
-2009,synthetic,9
-2009,synthetic - possible->silicone - possible,1
-2009,paper->wax paper - possible,1
-2009,paper->cardboard,1
-2010,glass,1
-2010,synthetic->,1
-2010,synthetic - possible->,1
-2010,fibre->silk,1
-2010,synthetic->silicone,1
-2010,metal->aluminum,1
-2010,metal->steel,1
-2010,glass->fibreglass,1
-2010,synthetic,4
-2010,metal,4
-2010,paper->cardboard,2
-2010,wood->,1
-2010,wood->balsa,1
-2010,wood,1
+2008,synthetic,1

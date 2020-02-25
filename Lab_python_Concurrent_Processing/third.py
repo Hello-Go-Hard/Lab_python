@@ -1,96 +1,95 @@
 import csv
-from csv_file_importer import scan_file
+from csv_file_importer import scan_file, write_into_csv
 from concurrent.futures import ProcessPoolExecutor
-import timeit
 import time
 import os
 from file_cutter import separate_file, write_to_csv
-
+from ImmutableDict import ImmutableDict, set_dict_value
 
 
 def third(data):
-    materials = [record['material'] for record in data]
+    materials = tuple(record.get('material') for record in data)
     dict_materials = {}
-    begin_date_list = [record['BeginDate'] for record in data]
-    set_of_date = set(begin_date_list)
+    begin_date_tuple = tuple(record.get('BeginDate') for record in data)
+    set_of_date = set(begin_date_tuple)
     set_of_date.remove('')
-    date_to_index_dict = {}
-    mistakes = []
+    date_to_index_dict = ImmutableDict()
+    mistakes = ()
 
     for date in set_of_date:
         if date.isdigit():
-            date_to_index_dict[date] = [index_date for index_date in range(len(begin_date_list)) if
-                                        begin_date_list[index_date] == date]
+            date_to_index_dict = set_dict_value(date_to_index_dict, date,
+                                                tuple(index_date for index_date in range(len(begin_date_tuple)) if
+                                                      begin_date_tuple[index_date] == date))
         else:
-            mistakes.append(date)
+            mistakes = tuple(mistakes + (date,))
 
     for date in mistakes:
         set_of_date.remove(date)
 
-    date_to_materials_dict = {}
+    date_to_materials_dict = ImmutableDict()
     for date in set_of_date:
-        materials_dict = {}
-        for index in date_to_index_dict[date]:
+        materials_dict = ImmutableDict()
+        for index in date_to_index_dict.get(date):
             for one_material in materials[index].split(';'):
                 try:
-                    materials_dict[one_material] = materials_dict[one_material] + 1
-                except KeyError:
-                    materials_dict[one_material] = 1
-        date_to_materials_dict[date] = materials_dict
+                    materials_dict = set_dict_value(materials_dict, one_material, materials_dict.get(one_material) + 1)
+                except TypeError:
+                    materials_dict = set_dict_value(materials_dict, one_material, 1)
+        date_to_materials_dict = set_dict_value(date_to_materials_dict, date, materials_dict)
     return date_to_materials_dict
 
 
 def data_init(file_name, executor):
-    data_dict = scan_file('cstmc-CSV-en.csv')
-    files = []
-    prev_iter = 0
+    data_dict = scan_file(file_name)
     files_data = separate_file(data_dict, os.cpu_count())
-    file_names = []
+    file_names = ()
     for file_name in range(os.cpu_count()):
-        file_names.append(str(file_name) + '_input.csv')
+        file_names = (file_names + ((str(file_name) + '_input.csv'),))
 
     executor.map(write_to_csv, files_data, file_names)
 
     results = executor.map(scan_file, file_names)
-    list_of_data = [row for row in results]
-    return list_of_data
+    tuple_of_data = tuple(row for row in results)
+    return tuple_of_data
 
 
 def main():
     executor = ProcessPoolExecutor(max_workers=os.cpu_count())
     files = data_init('cstmc-CSV-en.csv', executor)
 
-    result = list(executor.map(third, files))
+    result = tuple(executor.map(third, files))
 
-    all_date = []
+    all_date = ()
 
-    for one_date in [list(date_dict.keys()) for date_dict in result]:
-        all_date += one_date
+    for one_date in [tuple(date_dict.keys()) for date_dict in result]:
+        all_date = all_date + one_date
 
     all_date = list(set(all_date))
     all_date.sort()
-    output_array = [[], [], []]
+    all_date = tuple(all_date)
+    output_keys = ()
+    output_values = ()
+    output_date = ()
 
     for date in all_date:
-        materials = {}
+        materials = ImmutableDict()
         for one_resulted_dict in result:
-            if date in list(one_resulted_dict.keys()):
-                for key_of_subdict in list(one_resulted_dict[date].keys()):
-                    if key_of_subdict not in list(materials.keys()):
-                        materials[key_of_subdict] = one_resulted_dict[date][key_of_subdict]
+            if date in tuple(one_resulted_dict.keys()):
+                for key_of_subdict in list(one_resulted_dict.get(date).keys()):
+                    if key_of_subdict not in tuple(materials.keys()):
+                        materials = set_dict_value(materials, key_of_subdict,
+                                                   one_resulted_dict.get(date).get(key_of_subdict))
                     else:
-                        materials[key_of_subdict] += one_resulted_dict[date][key_of_subdict]
-        output_array[0] += [date] * len(materials.keys())
-        output_array[1] += list(materials.keys())
-        output_array[2] += list(materials.values())
+                        materials = set_dict_value(materials, key_of_subdict,
+                                                   one_resulted_dict.get(date).get(key_of_subdict) +
+                                                   materials.get(key_of_subdict))
 
-    file_output = open('material-stats.csv', 'w', newline='')
-    writer = csv.DictWriter(file_output, fieldnames=['Date', 'Material', 'Count'])
-    writer.writeheader()
-    for index in range(len(output_array[0])):
-        writer.writerow({'Date': output_array[0][index], 'Material': output_array[1][index],
-                         'Count': output_array[2][index]})
-    file_output.close()
+        output_date = output_date + (date,) * len(materials.keys())
+        output_keys = tuple(output_keys + tuple(materials.keys()))
+        output_values = tuple(output_values + tuple(materials.values()))
+
+    write_into_csv('material-stats.csv', ['Date', 'Material', 'Count'], [output_date, output_keys, output_values])
 
 
 if __name__ == '__main__':
