@@ -25,7 +25,3 @@ def set_dict_value(some_dict, key, value):
     some_dict = ImmutableDict({key: value for (key, value) in zip(keys_tuple, values_tuple)})
     return some_dict
 
-
-if __name__ == '__main__':
-    one_dict = ImmutableDict({'хуй': 'пизда'})
-    print(one_dict.class_dict)

@@ -4,7 +4,7 @@ from concurrent.futures import ProcessPoolExecutor
 from tail_recursion import tail_recursive, recurse
 import time
 import os
-from file_cutter import separate_file, write_to_csv
+from file_cutter import separate_data, write_to_csv
 from ImmutableDict import ImmutableDict, set_dict_value
 
 
@@ -32,7 +32,7 @@ def data_init(file_name, executor):
     start = time.time()
     data_dict = scan_file('cstmc-CSV-en.csv')
 
-    files_data = separate_file(data_dict, os.cpu_count())
+    files_data = separate_data(data_dict, os.cpu_count())
     file_names = tuple(str(index) + '_input.csv' for index in range(os.cpu_count()))
 
     result = executor.map(write_to_csv, list(files_data), file_names)

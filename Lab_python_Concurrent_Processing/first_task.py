@@ -3,7 +3,7 @@ from csv_file_importer import scan_file,write_into_csv
 from concurrent.futures import ProcessPoolExecutor
 import time
 import os
-from file_cutter import separate_file, write_to_csv
+from file_cutter import separate_data, write_to_csv
 from ImmutableDict import ImmutableDict, set_dict_value
 
 
@@ -141,7 +141,7 @@ def data_init(file_name, executor):
     data_dict = scan_file('cstmc-CSV-en.csv')
     files = ()
     prev_iter = 0
-    files_data = separate_file(data_dict, os.cpu_count())
+    files_data = separate_data(data_dict, os.cpu_count())
     file_names = ()
     for file_name in range(os.cpu_count()):
         file_names = file_names + ((str(file_name) + '_input.csv'),)
