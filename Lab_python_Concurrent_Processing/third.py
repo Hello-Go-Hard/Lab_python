@@ -3,46 +3,58 @@ from csv_file_importer import scan_file, write_into_csv
 from concurrent.futures import ProcessPoolExecutor
 import time
 import os
-from file_cutter import separate_data, write_to_csv
+from file_cutter import separate_file, write_to_csv
 from ImmutableDict import ImmutableDict, set_dict_value
+from functools import reduce
 
 
 def third(data):
-    materials = tuple(record.get('material') for record in data)
-    dict_materials = {}
-    begin_date_tuple = tuple(record.get('BeginDate') for record in data)
+    materials = tuple(map( lambda x: x.get('material'), data))
+    begin_date_tuple = tuple(map( lambda x: x.get('BeginDate'), data))
     set_of_date = set(begin_date_tuple)
     set_of_date.remove('')
-    date_to_index_dict = ImmutableDict()
-    mistakes = ()
 
-    for date in set_of_date:
-        if date.isdigit():
-            date_to_index_dict = set_dict_value(date_to_index_dict, date,
-                                                tuple(index_date for index_date in range(len(begin_date_tuple)) if
-                                                      begin_date_tuple[index_date] == date))
+    def sub_func(input_date, input_tuple):
+        date_to_index_dict_local = input_tuple[0]
+        mistakes_local = input_tuple[1]
+        nonlocal begin_date_tuple
+
+        if input_date.isdigit():
+            date_to_index_dict_local = set_dict_value(date_to_index_dict_local, input_date,
+                                                      tuple(index_date for index_date in range(len(begin_date_tuple)) if
+                                                            begin_date_tuple[index_date] == input_date))
         else:
-            mistakes = tuple(mistakes + (date,))
+            mistakes_local = tuple(mistakes_local + (input_date,))
+        return date_to_index_dict_local, mistakes_local
 
-    for date in mistakes:
-        set_of_date.remove(date)
+    dict_and_mistakes = reduce(lambda prev, x: sub_func(x, prev), [(ImmutableDict(), ())] + list(set_of_date))
+    mistakes = dict_and_mistakes[1]
+    date_to_index_dict = dict_and_mistakes[0]
+    list(map(set_of_date.remove, mistakes))
+
+    def func_material(date):
+        nonlocal date_to_materials_dict
+        materials_dict = ImmutableDict()
+
+        def func_try(one_material):
+            nonlocal materials_dict
+            try:
+                materials_dict = set_dict_value(materials_dict, one_material, materials_dict.get(one_material) + 1)
+            except TypeError:
+                materials_dict = set_dict_value(materials_dict, one_material, 1)
+
+        list(map(lambda x: list(map(func_try, materials[x].split(';'))), date_to_index_dict.get(date)))
+        date_to_materials_dict = set_dict_value(date_to_materials_dict, date, materials_dict)
 
     date_to_materials_dict = ImmutableDict()
-    for date in set_of_date:
-        materials_dict = ImmutableDict()
-        for index in date_to_index_dict.get(date):
-            for one_material in materials[index].split(';'):
-                try:
-                    materials_dict = set_dict_value(materials_dict, one_material, materials_dict.get(one_material) + 1)
-                except TypeError:
-                    materials_dict = set_dict_value(materials_dict, one_material, 1)
-        date_to_materials_dict = set_dict_value(date_to_materials_dict, date, materials_dict)
+    list(map(func_material, set_of_date))
+
     return date_to_materials_dict
 
 
 def data_init(file_name, executor):
     data_dict = scan_file(file_name)
-    files_data = separate_data(data_dict, os.cpu_count())
+    files_data = separate_file(data_dict, os.cpu_count())
     file_names = ()
     for file_name in range(os.cpu_count()):
         file_names = (file_names + ((str(file_name) + '_input.csv'),))
@@ -89,7 +101,7 @@ def main():
         output_keys = tuple(output_keys + tuple(materials.keys()))
         output_values = tuple(output_values + tuple(materials.values()))
 
-    write_into_csv('material-stats.csv', ['Date', 'Material', 'Count'], [output_date, output_keys, output_values])
+    write_into_csv('material-stats1.csv', ['Date', 'Material', 'Count'], [output_date, output_keys, output_values])
 
 
 if __name__ == '__main__':

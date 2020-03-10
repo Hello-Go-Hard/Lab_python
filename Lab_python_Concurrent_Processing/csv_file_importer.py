@@ -17,9 +17,10 @@ def scan_file(file_name):
 
 
 def write_into_csv(filename, fieldnames, output_data):
-    with open(filename, 'w', newline='') as file_output:
-        writer = csv.DictWriter(file_output, fieldnames=fieldnames)
-        writer.writeheader()
-        for index in range(len(output_data[0])):
-            writer.writerow({fieldname: value for (fieldname, value) in zip(fieldnames,
+    file_output = open(filename, 'w', newline='')
+    writer = csv.DictWriter(file_output, fieldnames=fieldnames)
+    writer.writeheader()
+    for index in range(len(output_data[0])):
+        writer.writerow({fieldname: value for (fieldname, value) in zip(fieldnames,
                                                                         [column[index] for column in output_data])})
+    file_output.close()

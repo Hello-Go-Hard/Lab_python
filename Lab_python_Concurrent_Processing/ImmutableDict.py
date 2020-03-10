@@ -25,3 +25,10 @@ def set_dict_value(some_dict, key, value):
     some_dict = ImmutableDict({key: value for (key, value) in zip(keys_tuple, values_tuple)})
     return some_dict
 
+
+def concat_dicts(first, second):
+    new_dict = ImmutableDict({})
+    unique_keys = list(first.keys()) + list(second.keys())
+    for key in unique_keys:
+        new_dict = set_dict_value(new_dict, key, int(first.get(key) or 0) + int(second.get(key) or 0))
+    return new_dict
